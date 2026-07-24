@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+
+  <!-- Title -->
+  <text x="50" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#1f2937">Transit context needs Galactic context</text>
+  <rect x="50" y="68" width="560" height="8" rx="4" fill="#77c943"/>
+
+  <!-- LEFT: event box -->
+  <rect x="50" y="110" width="420" height="360" rx="18" fill="#eff6ff" stroke="#1f2937" stroke-width="4"/>
+  <text x="260" y="155" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">Transit context</text>
+  <text x="260" y="185" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#1e40af">this one transiting system</text>
+
+  <!-- star -->
+  <circle cx="150" cy="280" r="48" fill="#fef08a" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="150" cy="238" r="12" fill="#1f2937"/>
+  <path d="M95 280 Q150 215 205 280" fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="150" y="355" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2937">host + planet</text>
+
+  <!-- light curve -->
+  <rect x="230" y="220" width="210" height="120" rx="10" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="335" y="248" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2937">light curve</text>
+  <path d="M250 275 H290 C302 275 308 310 320 310 H370 C382 310 388 275 400 275 H425"
+        fill="none" stroke="#f0a020" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="260" y="400" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#1f2937">depth, period, host radius</text>
+  <text x="260" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#1f2937">characterize the transit first</text>
+
+  <!-- CENTER arrow -->
+  <path d="M500 280 H580" stroke="#1f2937" stroke-width="5" stroke-linecap="round"/>
+  <path d="M555 260 l35 20 -35 20" fill="none" stroke="#1f2937" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="540" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">then place</text>
+  <text x="540" y="330" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">in Galaxy</text>
+
+  <!-- RIGHT: galaxy box -->
+  <rect x="610" y="110" width="540" height="360" rx="18" fill="#fef3c7" stroke="#1f2937" stroke-width="4"/>
+  <text x="880" y="155" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#92400e">Galactic context</text>
+  <text x="880" y="185" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#78350f">the frame around the event</text>
+
+  <!-- galaxy drawing, labels kept clear of shapes -->
+  <ellipse cx="880" cy="290" rx="170" ry="36" fill="#fde68a" stroke="#1f2937" stroke-width="3"/>
+  <ellipse cx="880" cy="290" rx="40" ry="58" fill="#fcd34d" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="880" cy="290" r="9" fill="#1f2937"/>
+  <ellipse cx="980" cy="275" rx="28" ry="12" fill="#78716c" fill-opacity="0.5" stroke="#1f2937" stroke-width="1.5"/>
+  <ellipse cx="1015" cy="302" rx="32" ry="11" fill="#78716c" fill-opacity="0.5" stroke="#1f2937" stroke-width="1.5"/>
+
+  <text x="880" y="215" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">bulge</text>
+  <text x="740" y="350" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">disk</text>
+  <text x="1025" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#7f1d1d">dust</text>
+
+  <text x="880" y="400" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#1f2937">CMD + proper motion + parallax</text>
+  <text x="880" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#1f2937">distance, population, mass</text>
+
+  <!-- Bottom takeaway - clear white band -->
+  <rect x="50" y="510" width="1100" height="160" rx="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <text x="600" y="555" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Transit context = this system.</text>
+  <text x="600" y="595" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Galactic context = the Milky Way frame around it.</text>
+  <text x="600" y="640" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#4b5563">Hands-On II uses both: measure the transit, then place the host among disk, bulge, and dust.</text>
+</svg>
