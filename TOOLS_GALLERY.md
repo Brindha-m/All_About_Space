@@ -1,21 +1,3 @@
-# Generated Diagrams Gallery: Basic to Advanced
-
-Every **generated diagram** in `assets/generated/` - cleaner redraws of the most important workshop slides from [`Image ppt/best/`](Image%20ppt/best/). Ordered by the same learning path as the [README](README.md).
-
-This file does **not** include:
-
-- hand-drawn key-concept sketches → [key concepts gallery](KEY_CONCEPTS_GALLERY.md)
-- original workshop ppt screenshots → [slides gallery](SLIDES_GALLERY.md)
-
-| Level | Difficulty | Topic | Diagrams |
-|---:|---|---|---:|
-| 1 | Basic | [Roman and the GBTDS](topics/01-roman-and-gbtds.md) | 2 |
-| 3 | Intermediate | [Microlensing fundamentals](topics/03-microlensing-fundamentals.md) | 1 |
-| 4 | Advanced | [Advanced microlensing and yields](topics/04-advanced-microlensing-and-yields.md) | 3 |
-| 8 | Advanced | [Pipelines and host stars](topics/08-pipelines.md) | 6 |
-
----
-
 ## Level 1 - Roman and the GBTDS (Basic)
 
 ### Filter coverage compared with other missions
