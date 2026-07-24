@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M105 270l36 14 15 38-15 38-36 14-36-14-15-38 15-38z"/>
+    <circle cx="450" cy="322" r="27" fill="#292727"/>
+    <path d="M132 294c98-91 190-83 292 11M132 350c98 91 190 83 292 11"/>
+    <path d="M477 304c128-92 225-78 335-9M477 340c128 92 225 78 335 9"/>
+    <path d="M835 322h145M958 296l27 26-27 26"/>
+    <path d="M640 550h470"/>
+    <path d="M654 538c95 0 132-5 170-31 43-29 49-160 83-160s40 131 83 160c38 26 75 31 108 31"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h560" stroke="#77c943"/>
+    <path d="M344 415h215" stroke="#f0a020"/>
+    <path d="M800 595h216" stroke="#3d65d8"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
+    <text x="55" y="86" font-size="52" font-weight="700">Microlensing = gravity bends light</text>
+    <text x="50" y="430" font-size="31">far-away star</text>
+    <text x="355" y="405" font-size="31">lens star</text>
+    <text x="818" y="280" font-size="31">telescope</text>
+    <text x="650" y="150" font-size="35">The stars line up...</text>
+    <text x="700" y="330" font-size="32">so the source looks brighter!</text>
+    <text x="635" y="602" font-size="31">brightness over time</text>
+  </g>
+</svg>

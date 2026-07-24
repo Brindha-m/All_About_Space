@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="190" cy="225" r="65"/>
+    <path d="M145 225h90M190 180v90"/>
+    <circle cx="510" cy="225" r="65"/>
+    <path d="M475 245c30-60 55-60 75 0"/>
+    <circle cx="830" cy="225" r="65"/>
+    <path d="M785 245c20-55 70-55 90 0M800 260h60"/>
+    <path d="M255 225h175M575 225h175M895 225h120"/>
+    <path d="M405 203l28 22-28 22M725 203l28 22-28 22M990 203l28 22-28 22"/>
+    <rect x="1015" y="175" width="135" height="100" rx="18"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h465" stroke="#77c943"/>
+    <path d="M95 335h190" stroke="#3d65d8"/>
+    <path d="M415 335h190" stroke="#f0a020"/>
+    <path d="M735 335h190" stroke="#77c943"/>
+    <path d="M1005 335h150" stroke="#3d65d8"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive" text-anchor="middle">
+    <text x="55" y="84" font-size="44" font-weight="700" text-anchor="start">Extra clues reveal the hidden lens</text>
+    <text x="190" y="375" font-size="29" font-weight="700">Einstein angle</text>
+    <text x="190" y="415" font-size="27">event size</text>
+    <text x="510" y="375" font-size="29" font-weight="700">parallax</text>
+    <text x="510" y="415" font-size="27">viewpoint shift</text>
+    <text x="830" y="375" font-size="29" font-weight="700">lens light</text>
+    <text x="830" y="415" font-size="27">host brightness</text>
+    <text x="1082" y="375" font-size="29" font-weight="700">mass</text>
+    <text x="1082" y="415" font-size="27">and distance</text>
+    <text x="600" y="535" font-size="32">Usually, two strong clues can break the main degeneracy.</text>
+    <text x="600" y="585" font-size="27">Without them, Galactic models provide statistical estimates.</text>
+  </g>
+</svg>

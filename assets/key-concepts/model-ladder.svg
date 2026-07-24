@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="70" y="175" width="275" height="100" rx="18"/>
+    <rect x="460" y="175" width="275" height="100" rx="18"/>
+    <rect x="850" y="175" width="275" height="100" rx="18"/>
+    <path d="M345 225h115M432 203l28 22-28 22M735 225h115M822 203l28 22-28 22"/>
+    <circle cx="150" cy="225" r="18" fill="#292727"/>
+    <circle cx="520" cy="225" r="18" fill="#292727"/><circle cx="570" cy="225" r="10"/>
+    <circle cx="915" cy="225" r="18" fill="#292727"/><circle cx="965" cy="225" r="10"/><path d="M1015 195c35 25 35 55 0 80"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h495" stroke="#77c943"/>
+    <path d="M90 335h230" stroke="#3d65d8"/>
+    <path d="M480 335h230" stroke="#f0a020"/>
+    <path d="M870 335h230" stroke="#77c943"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive" text-anchor="middle">
+    <text x="55" y="84" font-size="44" font-weight="700" text-anchor="start">Start simple, then add complexity</text>
+    <text x="207" y="375" font-size="31" font-weight="700">one lens</text>
+    <text x="207" y="415" font-size="28">basic event</text>
+    <text x="597" y="375" font-size="31" font-weight="700">two lenses</text>
+    <text x="597" y="415" font-size="28">planet or binary</text>
+    <text x="987" y="375" font-size="31" font-weight="700">extra effects</text>
+    <text x="987" y="415" font-size="28">parallax or motion</text>
+    <text x="600" y="525" font-size="33">Add a harder model only when the data require it.</text>
+    <text x="600" y="580" font-size="28">This reduces overfitting and false discoveries.</text>
+  </g>
+</svg>

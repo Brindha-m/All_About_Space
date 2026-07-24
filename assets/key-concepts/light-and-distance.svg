@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="180" cy="285" r="70"/>
+    <path d="M180 180v-45M180 435v-45M75 285H30M330 285h-45M105 210l-32-32M287 392l-32-32M105 360l-32 32M287 178l-32 32"/>
+    <circle cx="570" cy="285" r="20"/>
+    <circle cx="1010" cy="285" r="20"/>
+    <path d="M260 245c110-75 185-75 270 0M260 325c110 75 185 75 270 0"/>
+    <path d="M260 220c290-145 520-145 710 0M260 350c290 145 520 145 710 0"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h420" stroke="#77c943"/>
+    <path d="M490 395h165" stroke="#f0a020"/>
+    <path d="M920 395h180" stroke="#3d65d8"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
+    <text x="55" y="84" font-size="44" font-weight="700">Light spreads out as it travels</text>
+    <text x="115" y="485" font-size="32">star</text>
+    <text x="490" y="435" font-size="32" font-weight="700">near = bright</text>
+    <text x="910" y="435" font-size="32" font-weight="700">far = faint</text>
+    <text x="250" y="555" font-size="34">Twice as far away means four times fainter.</text>
+  </g>
+</svg>

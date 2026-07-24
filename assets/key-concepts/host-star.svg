@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="245" cy="285" r="115"/>
+    <circle cx="245" cy="285" r="23" fill="#292727"/>
+    <path d="M430 285h135M537 263l28 22-28 22"/>
+    <circle cx="700" cy="285" r="72"/>
+    <path d="M772 285h110M854 263l28 22-28 22"/>
+    <circle cx="1015" cy="285" r="42"/>
+    <path d="M965 350h100"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h500" stroke="#77c943"/>
+    <path d="M135 445h220" stroke="#3d65d8"/>
+    <path d="M620 405h160" stroke="#f0a020"/>
+    <path d="M935 405h170" stroke="#77c943"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
+    <text x="55" y="84" font-size="44" font-weight="700">Know the star to know the planet</text>
+    <text x="125" y="485" font-size="32" font-weight="700">measured dip</text>
+    <text x="610" y="445" font-size="32" font-weight="700">star size</text>
+    <text x="925" y="445" font-size="32" font-weight="700">planet size</text>
+    <text x="230" y="560" font-size="34">A wrong star radius gives a wrong planet radius.</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="600" cy="285" r="65"/>
+    <path d="M535 285h130M600 220v130"/>
+    <path d="M500 250C390 180 310 180 225 220M500 320C390 390 310 390 225 350"/>
+    <path d="M700 250c110-70 190-70 275-30M700 320c110 70 190 70 275 30"/>
+    <path d="M225 170l65 105-130 0z"/>
+    <rect x="905" y="170" width="140" height="105" rx="16"/>
+    <path d="M940 275l-20 70h110l-20-70"/>
+    <circle cx="225" cy="430" r="48"/>
+    <path d="M205 430h40M225 410v40"/>
+    <circle cx="975" cy="430" r="48"/>
+    <path d="M955 430h40M975 410v40"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h430" stroke="#77c943"/>
+    <path d="M125 510h200" stroke="#3d65d8"/>
+    <path d="M500 390h200" stroke="#f0a020"/>
+    <path d="M870 510h210" stroke="#77c943"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
+    <text x="55" y="84" font-size="44" font-weight="700">More telescopes add more clues</text>
+    <text x="125" y="550" font-size="31" font-weight="700">earlier images</text>
+    <text x="500" y="430" font-size="31" font-weight="700">Roman event</text>
+    <text x="860" y="550" font-size="31" font-weight="700">later images</text>
+    <text x="280" y="600" font-size="28">Longer timelines help measure motion, distance, and mass.</text>
+  </g>
+</svg>

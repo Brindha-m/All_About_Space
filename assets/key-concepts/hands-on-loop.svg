@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="70" y="220" width="210" height="130" rx="20"/>
+    <rect x="365" y="220" width="210" height="130" rx="20"/>
+    <rect x="660" y="220" width="210" height="130" rx="20"/>
+    <rect x="955" y="220" width="180" height="130" rx="20"/>
+    <path d="M280 285h85M339 263l28 22-28 22M575 285h85M634 263l28 22-28 22M870 285h85M929 263l28 22-28 22"/>
+    <path d="M1045 350c0 135-155 160-420 160H260c-105 0-135-45-135-110"/>
+    <path d="M103 420l22-25 25 22"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h460" stroke="#77c943"/>
+    <path d="M95 390h160" stroke="#3d65d8"/>
+    <path d="M390 390h160" stroke="#f0a020"/>
+    <path d="M685 390h160" stroke="#77c943"/>
+    <path d="M975 390h140" stroke="#3d65d8"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive" text-anchor="middle">
+    <text x="55" y="84" font-size="44" font-weight="700" text-anchor="start">Science improves in a loop</text>
+    <text x="175" y="275" font-size="31" font-weight="700">ask</text>
+    <text x="175" y="315" font-size="31">a question</text>
+    <text x="470" y="275" font-size="31" font-weight="700">build</text>
+    <text x="470" y="315" font-size="31">a model</text>
+    <text x="765" y="275" font-size="31" font-weight="700">test</text>
+    <text x="765" y="315" font-size="31">with data</text>
+    <text x="1045" y="275" font-size="31" font-weight="700">learn</text>
+    <text x="1045" y="315" font-size="31">and repeat</text>
+    <text x="600" y="585" font-size="31">A failed prediction is useful: it shows what to improve.</text>
+  </g>
+</svg>

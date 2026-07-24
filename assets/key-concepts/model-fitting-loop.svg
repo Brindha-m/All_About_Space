@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="70" y="190" width="220" height="110" rx="18"/>
+    <rect x="365" y="190" width="220" height="110" rx="18"/>
+    <rect x="660" y="190" width="220" height="110" rx="18"/>
+    <rect x="955" y="190" width="180" height="110" rx="18"/>
+    <path d="M290 245h75M339 223l28 22-28 22M585 245h75M634 223l28 22-28 22M880 245h75M929 223l28 22-28 22"/>
+    <path d="M1045 300c0 130-115 165-380 165H285c-90 0-115-45-115-105"/>
+    <path d="M146 382l24-24 24 24"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h420" stroke="#77c943"/>
+    <path d="M95 340h170" stroke="#3d65d8"/>
+    <path d="M390 340h170" stroke="#f0a020"/>
+    <path d="M685 340h170" stroke="#77c943"/>
+    <path d="M975 340h140" stroke="#3d65d8"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive" text-anchor="middle">
+    <text x="55" y="84" font-size="44" font-weight="700" text-anchor="start">Fitting means improving a guess</text>
+    <text x="180" y="235" font-size="29" font-weight="700">choose</text>
+    <text x="180" y="275" font-size="29">parameters</text>
+    <text x="475" y="235" font-size="29" font-weight="700">predict</text>
+    <text x="475" y="275" font-size="29">a light curve</text>
+    <text x="770" y="235" font-size="29" font-weight="700">compare</text>
+    <text x="770" y="275" font-size="29">with data</text>
+    <text x="1045" y="235" font-size="29" font-weight="700">score</text>
+    <text x="1045" y="275" font-size="29">the fit</text>
+    <text x="600" y="535" font-size="32">Repeat until better guesses stop improving the match.</text>
+    <text x="600" y="585" font-size="27">Try many starting points so a good solution is not missed.</text>
+  </g>
+</svg>

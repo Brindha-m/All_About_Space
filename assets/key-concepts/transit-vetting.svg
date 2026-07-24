@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 230h300M70 230c65 0 73 0 92 0 18 0 20 95 45 95h48c25 0 27-95 45-95h70"/>
+    <circle cx="220" cy="425" r="62"/><circle cx="220" cy="425" r="18" fill="#292727"/>
+    <path d="M450 285h105M527 263l28 22-28 22"/>
+    <path d="M630 200h190v145H630zM650 225l40 40M690 225l-40 40M720 225l75 0M720 265h55M650 305h125"/>
+    <path d="M850 285h105M927 263l28 22-28 22"/>
+    <circle cx="1040" cy="285" r="72"/>
+    <path d="M1002 285l25 25 52-58"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h430" stroke="#77c943"/>
+    <path d="M80 500h280" stroke="#3d65d8"/>
+    <path d="M620 400h210" stroke="#f0a020"/>
+    <path d="M960 400h165" stroke="#77c943"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
+    <text x="55" y="84" font-size="44" font-weight="700">A dip is only a planet candidate</text>
+    <text x="80" y="540" font-size="32" font-weight="700">find a repeating dip</text>
+    <text x="615" y="440" font-size="32" font-weight="700">check other causes</text>
+    <text x="955" y="440" font-size="32" font-weight="700">keep the best</text>
+    <text x="320" y="585" font-size="30">Noise and binary stars can copy a transit.</text>
+  </g>
+</svg>

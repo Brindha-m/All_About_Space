@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 315c48-104 218-141 336-63 77 51 64 139-18 180-107 54-255 12-294-73-35-76 44-145 139-151 92-6 156 50 139 105-19 61-113 78-172 41-53-34-36-89 17-99"/>
+    <circle cx="255" cy="320" r="12" fill="#292727"/>
+    <circle cx="690" cy="315" r="24"/>
+    <circle cx="1085" cy="315" r="20"/>
+    <path d="M714 280c75 70 125-63 197 0 61 53 98-14 154 10M714 350c75-70 125 63 197 0 61-53 98 14 154-10"/>
+    <path d="M804 230l40 42M844 230l-40 42M900 332l42 42M942 332l-42 42"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h540" stroke="#77c943"/>
+    <path d="M595 430h240" stroke="#f0a020"/>
+    <path d="M900 430h220" stroke="#3d65d8"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
+    <text x="55" y="86" font-size="52" font-weight="700">The Milky Way changes what we can see</text>
+    <text x="100" y="500" font-size="34">many stars live in the bulge</text>
+    <text x="600" y="470" font-size="31" font-weight="700">dust blocks light</text>
+    <text x="900" y="470" font-size="29" font-weight="700">we observe here</text>
+    <text x="285" y="580" font-size="32">Infrared light helps Roman see through the dust.</text>
+  </g>
+</svg>

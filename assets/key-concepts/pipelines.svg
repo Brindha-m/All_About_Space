@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="55" y="220" width="155" height="125" rx="16"/>
+    <path d="M83 250h24v24H83zM125 250h24v24h-24zM167 250h24v24h-24zM83 292h24v24H83zM125 292h24v24h-24zM167 292h24v24h-24z"/>
+    <path d="M210 282h90M274 260l28 22-28 22"/>
+    <path d="M330 300c36 0 48-65 83-65s46 130 82 130 46-65 84-65"/>
+    <path d="M580 282h90M644 260l28 22-28 22"/>
+    <circle cx="760" cy="282" r="58"/>
+    <path d="M728 282l25 25 43-54"/>
+    <path d="M818 282h90M882 260l28 22-28 22"/>
+    <path d="M965 225h155M965 270h115M965 315h135"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h400" stroke="#77c943"/>
+    <path d="M330 420h250" stroke="#f0a020"/>
+    <path d="M965 420h170" stroke="#3d65d8"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
+    <text x="55" y="86" font-size="52" font-weight="700">A pipeline turns pictures into answers</text>
+    <text x="65" y="400" font-size="32">pixels</text>
+    <text x="335" y="460" font-size="32" font-weight="700">brightness over time</text>
+    <text x="700" y="400" font-size="32">planet signal?</text>
+    <text x="965" y="460" font-size="32" font-weight="700">planet list</text>
+    <text x="185" y="555" font-size="32">Each step must be tested, or mistakes move forward.</text>
+  </g>
+</svg>

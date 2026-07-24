@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="55" y="200" width="275" height="150" rx="22"/>
+    <rect x="460" y="200" width="275" height="150" rx="22"/>
+    <rect x="865" y="200" width="275" height="150" rx="22"/>
+    <path d="M330 275h130M432 253l28 22-28 22"/>
+    <path d="M735 275h130M837 253l28 22-28 22"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h360" stroke="#77c943"/>
+    <path d="M95 390h195" stroke="#3d65d8"/>
+    <path d="M500 390h195" stroke="#f0a020"/>
+    <path d="M905 390h195" stroke="#77c943"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive" text-anchor="middle">
+    <text x="55" y="84" font-size="44" font-weight="700" text-anchor="start">A yield is a prediction</text>
+    <text x="192" y="258" font-size="31" font-weight="700">what Roman</text>
+    <text x="192" y="302" font-size="31" font-weight="700">can detect</text>
+    <text x="597" y="258" font-size="31" font-weight="700">planets nature</text>
+    <text x="597" y="302" font-size="31" font-weight="700">provides</text>
+    <text x="1002" y="258" font-size="31" font-weight="700">expected</text>
+    <text x="1002" y="302" font-size="31" font-weight="700">discoveries</text>
+    <text x="600" y="505" font-size="32">Change the assumptions, and the predicted number changes.</text>
+    <text x="600" y="565" font-size="30">Yield is a forecast - not a promise.</text>
+  </g>
+</svg>

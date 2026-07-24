@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="175" cy="285" rx="115" ry="45"/>
+    <circle cx="175" cy="285" r="35"/>
+    <circle cx="125" cy="278" r="5" fill="#292727"/><circle cx="230" cy="302" r="7" fill="#292727"/>
+    <path d="M300 285h95M369 263l28 22-28 22"/>
+    <ellipse cx="525" cy="285" rx="100" ry="45"/>
+    <circle cx="525" cy="285" r="35"/>
+    <circle cx="470" cy="275" r="14"/><circle cx="590" cy="300" r="18"/>
+    <path d="M635 285h95M704 263l28 22-28 22"/>
+    <circle cx="865" cy="285" r="58"/>
+    <ellipse cx="865" cy="285" rx="135" ry="55"/>
+    <circle cx="995" cy="285" r="18" fill="#292727"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h410" stroke="#77c943"/>
+    <path d="M85 400h185" stroke="#3d65d8"/>
+    <path d="M435 400h185" stroke="#f0a020"/>
+    <path d="M775 400h275" stroke="#77c943"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
+    <text x="55" y="84" font-size="44" font-weight="700">Planets grow inside a disk</text>
+    <text x="90" y="440" font-size="32" font-weight="700">dust grains</text>
+    <text x="435" y="440" font-size="32" font-weight="700">rocky pieces</text>
+    <text x="775" y="440" font-size="32" font-weight="700">young planets</text>
+    <text x="150" y="550" font-size="34">Small pieces collide, stick, and slowly build worlds.</text>
+  </g>
+</svg>

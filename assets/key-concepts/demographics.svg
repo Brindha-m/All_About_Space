@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffefb"/>
+  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="245" r="20"/><circle cx="175" cy="205" r="20"/>
+    <circle cx="235" cy="265" r="20"/><circle cx="295" cy="215" r="20"/>
+    <circle cx="165" cy="315" r="20"/><circle cx="285" cy="335" r="20"/>
+    <path d="M355 270h130M458 248l28 22-28 22"/>
+    <path d="M525 205l55 65-55 65M650 205l-55 65 55 65"/>
+    <path d="M690 270h130M793 248l28 22-28 22"/>
+    <circle cx="940" cy="270" r="92"/>
+    <path d="M900 270l28 28 58-68"/>
+  </g>
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M55 102h490" stroke="#77c943"/>
+    <path d="M55 430h275" stroke="#f0a020"/>
+    <path d="M835 430h250" stroke="#3d65d8"/>
+  </g>
+  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
+    <text x="55" y="86" font-size="44" font-weight="700">Found planets are only part of the story</text>
+    <text x="55" y="470" font-size="35" font-weight="700">planets we found</text>
+    <text x="470" y="385" font-size="32" text-anchor="middle">correct for planets</text>
+    <text x="470" y="425" font-size="32" text-anchor="middle">we probably missed</text>
+    <text x="840" y="470" font-size="31" font-weight="700">true planet population</text>
+    <text x="155" y="535" font-size="31">Hard-to-find planets need a bigger correction.</text>
+    <text x="275" y="585" font-size="31">That correction is called completeness.</text>
+  </g>
+</svg>
