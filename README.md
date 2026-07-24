@@ -96,7 +96,13 @@ Noise, eclipsing binaries, and blended neighbors can all copy a transit signal. 
 
 ---
 
-## Level 6 - Galactic context and dust
+## Level 6 - Galactic context and dust (Intermediate)
+
+### One event needs Galactic context
+
+Transit context is what the light curve tells you about one system (depth, period, host). Galactic context is the Milky Way frame around it: disk, bulge, dust, distance, and motion. Hands-On II uses both — characterize the transit, then place the host in the Galaxy.
+
+![Transit context and Galactic context](assets/key-concepts/transit-vs-galactic-context.svg)
 
 ### The Milky Way changes what we can see
 
