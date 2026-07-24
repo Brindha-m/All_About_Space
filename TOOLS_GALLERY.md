@@ -86,7 +86,3 @@ At bulge distances, Roman cannot separate stars closer together than about 800 A
 
 ---
 
-## Related galleries
-
-- [Key concepts gallery](KEY_CONCEPTS_GALLERY.md) - beginner hand-drawn sketches only
-- [Slides gallery](SLIDES_GALLERY.md) - original workshop slide screenshots
