@@ -19,7 +19,7 @@ Required ingredients:
 
 For a point lens of mass \(M_L\):
 
-\[
+$$
 \theta_E
 =
 \sqrt{\kappa M_L\pi_{\rm rel}},
@@ -27,7 +27,7 @@ For a point lens of mass \(M_L\):
 \pi_{\rm rel}
 =
 \mathrm{AU}\left(\frac{1}{D_L}-\frac{1}{D_S}\right),
-\]
+$$
 
 where \(\kappa=4G/(c^2\mathrm{AU})\), \(D_L\) is lens distance, and \(D_S\) is source distance.
 
@@ -37,17 +37,17 @@ The physical Einstein radius is \(R_E=D_L\theta_E\). It sets the natural spatial
 
 Define angular separation in Einstein-radius units:
 
-\[
+$$
 u(t)
 =
 \sqrt{u_0^2+\left(\frac{t-t_0}{t_E}\right)^2}.
-\]
+$$
 
 The magnification is:
 
-\[
+$$
 A(u)=\frac{u^2+2}{u\sqrt{u^2+4}}.
-\]
+$$
 
 Core parameters:
 
@@ -64,9 +64,9 @@ A smaller \(u_0\) gives higher peak magnification.
 
 The observed flux is commonly modeled as:
 
-\[
+$$
 F(t)=F_S A(t)+F_B,
-\]
+$$
 
 where \(F_S\) is source flux and \(F_B\) is blended light from unrelated stars, companions, or the lens.
 
@@ -107,9 +107,9 @@ The planetary signal is usually a short anomaly on a longer host-lens event. Low
 
 If \(\rho\) and the source angular radius \(\theta_\star\) are known:
 
-\[
+$$
 \theta_E=\frac{\theta_\star}{\rho}.
-\]
+$$
 
 This is an important route toward physical lens properties.
 

@@ -8,7 +8,7 @@
 
 A pipeline is a reproducible sequence that transforms raw measurements into scientific products. For Roman time-domain science:
 
-\[
+$$
 \text{detector reads}
 \rightarrow
 \text{calibrated images}
@@ -22,7 +22,7 @@ A pipeline is a reproducible sequence that transforms raw measurements into scie
 \text{physical parameters}
 \rightarrow
 \text{populations}.
-\]
+$$
 
 Each arrow has assumptions and can introduce bias.
 

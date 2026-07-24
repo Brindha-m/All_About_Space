@@ -62,11 +62,11 @@ For the overall Galaxy:
 
 Dust both dims and changes the color of a star:
 
-\[
+$$
 F_{\lambda,\rm obs}
 =
 F_{\lambda,\rm intrinsic}\,10^{-0.4A_\lambda}.
-\]
+$$
 
 Definitions:
 
@@ -117,9 +117,9 @@ The **initial–final mass relation** affects dark-lens predictions. Microlensin
 
 Relative transverse velocity affects microlensing timescale:
 
-\[
+$$
 t_E=\frac{\theta_E}{\mu_{\rm rel}}.
-\]
+$$
 
 A short event may indicate:
 

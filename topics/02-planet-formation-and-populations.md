@@ -115,9 +115,9 @@ These are empirical patterns to explain, not rigid natural categories.
 
 Bulk density is:
 
-\[
+$$
 \rho_p=\frac{3M_p}{4\pi R_p^3}.
-\]
+$$
 
 Planets with the same radius can have different masses and compositions. Microlensing primarily constrains mass ratio; transits constrain radius ratio. Combining population-level information from both methods is powerful but requires a mass–radius relation with intrinsic scatter.
 
@@ -125,7 +125,7 @@ Planets with the same radius can have different masses and compositions. Microle
 
 A formation theory should predict distributions that can be compared after applying the survey selection function:
 
-\[
+$$
 \text{formation model}
 \rightarrow
 \text{planet population}
@@ -133,7 +133,7 @@ A formation theory should predict distributions that can be compared after apply
 \text{survey simulator}
 \rightarrow
 \text{detected synthetic sample}.
-\]
+$$
 
 Comparing raw model planets with raw detections is generally invalid.
 

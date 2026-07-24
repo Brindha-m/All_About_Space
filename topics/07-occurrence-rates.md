@@ -28,9 +28,9 @@ Every quoted rate needs:
 
 If detected planet \(i\) has detection probability \(p_i\), an intuitive estimator is:
 
-\[
+$$
 f \sim \frac{1}{N_\star}\sum_i\frac{1}{p_i}.
-\]
+$$
 
 In practice, geometry, window function, pipeline completeness, reliability, parameter uncertainty, multiplicity, and sample selection make hierarchical or forward-model methods preferable.
 
@@ -44,14 +44,14 @@ In practice, geometry, window function, pipeline completeness, reliability, para
 
 For transits:
 
-\[
+$$
 p_{\rm det}
 =
 p_{\rm geometric}\,
 p_{\rm window}\,
 p_{\rm pipeline}\,
 p_{\rm vetting}.
-\]
+$$
 
 For microlensing, sensitivity is commonly estimated over event parameters and planet \(q,s\), then summed over monitored events or modeled through a Galactic event-rate simulation.
 
@@ -95,11 +95,11 @@ Binning is interpretable but creates trade-offs:
 
 A parametric model might use a broken power law:
 
-\[
+$$
 \frac{d^2N}{d\log P\,d\log R}
 =
 C\,g(P)\,h(R).
-\]
+$$
 
 A hierarchical model marginalizes each object's uncertain true properties rather than fixing point estimates. It can jointly model:
 

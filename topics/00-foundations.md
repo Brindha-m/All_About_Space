@@ -51,17 +51,17 @@ A telescope records **pixels**, not planets. A simplified chain is:
 
 For planet mass much smaller than stellar mass:
 
-\[
+$$
 P^2 \simeq \frac{4\pi^2a^3}{GM_\star}.
-\]
+$$
 
 For Solar units this becomes approximately:
 
-\[
+$$
 \left(\frac{P}{1\,\mathrm{yr}}\right)^2
 =
 \frac{\left(a/1\,\mathrm{AU}\right)^3}{M_\star/M_\odot}.
-\]
+$$
 
 This connects an observed period to orbital scale when stellar mass is known.
 
@@ -80,11 +80,11 @@ Exoplanet surveys never detect every planet. Keep these terms separate:
 
 Bayes' theorem:
 
-\[
+$$
 p(\theta\mid D)
 =
 \frac{p(D\mid\theta)\,p(\theta)}{p(D)}.
-\]
+$$
 
 Here \(\theta\) denotes parameters and \(D\) the data.
 
@@ -112,11 +112,11 @@ A survey preferentially detects some objects:
 
 Therefore, the detected distribution is:
 
-\[
+$$
 \text{observed population}
 \sim
 \text{true population}\times\text{selection function}.
-\]
+$$
 
 The central goal of demographics is to estimate the true population while accounting for this filter.
 

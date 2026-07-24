@@ -13,11 +13,11 @@ A binary-lens fit often gives \(q\), \(s\), \(t_E\), and sometimes \(\rho\). To 
 
 If both \(\theta_E\) and \(\pi_E\) are measured:
 
-\[
+$$
 M_L=\frac{\theta_E}{\kappa\pi_E},
 \qquad
 \pi_{\rm rel}=\theta_E\pi_E.
-\]
+$$
 
 Then \(M_p=qM_L\).
 
@@ -140,7 +140,7 @@ Report competing solutions and their physical plausibility, not just the numeric
 
 A yield is an expected number of detections under stated assumptions:
 
-\[
+$$
 N_{\rm det}
 =
 \int
@@ -148,7 +148,7 @@ N_{\rm det}
 \underbrace{f_p(\boldsymbol{\phi}\mid\boldsymbol{x})}_{\text{planet population}}
 \underbrace{\epsilon(\boldsymbol{\phi},\boldsymbol{x})}_{\text{detection efficiency}}
 \,d\boldsymbol{x}\,d\boldsymbol{\phi}.
-\]
+$$
 
 Here \(\boldsymbol{x}\) represents event/star properties and \(\boldsymbol{\phi}\) planet properties.
 

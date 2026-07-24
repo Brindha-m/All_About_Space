@@ -105,12 +105,9 @@ Even if final archive details evolve, a mature survey normally needs:
 
 Roman is not simply “a larger planet counter.” Its science comes from combining:
 
-\[
-\text{time-series data}
-+\text{physical models}
-+\text{selection functions}
-+\text{Galactic context}.
-\]
+$$
+\text{time-series data} + \text{physical models} + \text{selection functions} + \text{Galactic context}.
+$$
 
 ## 9. Check your understanding
 

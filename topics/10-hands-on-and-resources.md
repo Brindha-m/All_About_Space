@@ -149,7 +149,7 @@ Prefer recent reviews for orientation, then read the primary papers for equation
 
 ## 8. Final concept map
 
-\[
+$$
 \boxed{
 \text{planet formation}
 \rightarrow
@@ -163,7 +163,7 @@ Prefer recent reviews for orientation, then read the primary papers for equation
 \rightarrow
 \text{Galactic planet census}
 }
-\]
+$$
 
 If you can explain every arrow—and identify the uncertainty introduced at each one—you have the conceptual foundation needed to work through the workshop notebooks.
 

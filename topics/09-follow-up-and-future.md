@@ -122,7 +122,7 @@ Microlensing and transits answer “How common are different planets?” Direct 
 
 ## 9. A complete ecosystem
 
-\[
+$$
 \text{wide surveys}
 \rightarrow
 \text{population constraints}
@@ -132,7 +132,7 @@ Microlensing and transits answer “How common are different planets?” Direct 
 \text{follow-up characterization}
 \rightarrow
 \text{future mission design}.
-\]
+$$
 
 No single technique provides the full picture.
 

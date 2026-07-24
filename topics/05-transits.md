@@ -10,9 +10,9 @@ A transit occurs when a planet passes in front of its star as seen by the observ
 
 For a circular orbit, transit probability is approximately:
 
-\[
+$$
 p_{\rm tr}\simeq\frac{R_\star+R_p}{a}.
-\]
+$$
 
 Close-in planets are therefore geometrically favored.
 
@@ -20,9 +20,9 @@ Close-in planets are therefore geometrically favored.
 
 For a uniformly bright, unblended star and a small planet:
 
-\[
+$$
 \delta\simeq\left(\frac{R_p}{R_\star}\right)^2.
-\]
+$$
 
 Earth crossing the Sun produces a depth of roughly \(84\) parts per million. Real transit shapes are affected by:
 
@@ -57,9 +57,9 @@ Duration can constrain stellar density if the orbit is modeled correctly.
 
 Planet radius requires stellar radius:
 
-\[
+$$
 R_p=\left(\frac{R_p}{R_\star}\right)R_\star.
-\]
+$$
 
 An inaccurate host star creates an inaccurate planet.
 
@@ -91,12 +91,12 @@ Low SNR creates rapidly increasing false-alarm pressure because enormous numbers
 
 If contaminating flux \(F_c\) enters the aperture:
 
-\[
+$$
 \delta_{\rm obs}
 =
 \delta_{\rm true}
 \frac{F_\star}{F_\star+F_c}.
-\]
+$$
 
 Ignoring dilution underestimates \(R_p/R_\star\). Roman's crowded bulge fields make:
 
