@@ -1,23 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M100 315c48-104 218-141 336-63 77 51 64 139-18 180-107 54-255 12-294-73-35-76 44-145 139-151 92-6 156 50 139 105-19 61-113 78-172 41-53-34-36-89 17-99"/>
-    <circle cx="255" cy="320" r="12" fill="#292727"/>
-    <circle cx="690" cy="315" r="24"/>
-    <circle cx="1085" cy="315" r="20"/>
-    <path d="M714 280c75 70 125-63 197 0 61 53 98-14 154 10M714 350c75-70 125 63 197 0 61-53 98 14 154-10"/>
-    <path d="M804 230l40 42M844 230l-40 42M900 332l42 42M942 332l-42 42"/>
-  </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h540" stroke="#77c943"/>
-    <path d="M595 430h240" stroke="#f0a020"/>
-    <path d="M900 430h220" stroke="#3d65d8"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
-    <text x="55" y="86" font-size="52" font-weight="700">The Milky Way changes what we can see</text>
-    <text x="100" y="500" font-size="34">many stars live in the bulge</text>
-    <text x="600" y="470" font-size="31" font-weight="700">dust blocks light</text>
-    <text x="900" y="470" font-size="29" font-weight="700">we observe here</text>
-    <text x="285" y="580" font-size="32">Infrared light helps Roman see through the dust.</text>
-  </g>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="32" font-weight="700" fill="#1f2937">The Milky Way changes what we can see</text>
+  <rect x="50" y="82" width="520" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Edge-on galaxy -->
+  <ellipse cx="420" cy="250" rx="280" ry="50" fill="#fef3c7" stroke="#1f2937" stroke-width="4"/>
+  <ellipse cx="420" cy="250" rx="65" ry="85" fill="#fde68a" stroke="#1f2937" stroke-width="4"/>
+  <circle cx="420" cy="250" r="12" fill="#1f2937"/>
+  <text x="420" y="175" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#4b5563">bulge</text>
+  <text x="250" y="320" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#4b5563">disk</text>
+
+  <!-- Dust between us and bulge -->
+  <ellipse cx="620" cy="235" rx="45" ry="22" fill="#78716c" fill-opacity="0.55" stroke="#1f2937" stroke-width="2"/>
+  <ellipse cx="680" cy="265" rx="55" ry="20" fill="#78716c" fill-opacity="0.55" stroke="#1f2937" stroke-width="2"/>
+  <ellipse cx="740" cy="245" rx="40" ry="24" fill="#78716c" fill-opacity="0.55" stroke="#1f2937" stroke-width="2"/>
+  <text x="680" y="200" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" font-weight="700" fill="#7f1d1d">dust</text>
+
+  <!-- Line of sight -->
+  <line x1="780" y1="250" x2="920" y2="250" stroke="#3d65d8" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="850" y="230" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="14" fill="#1d4ed8">line of sight</text>
+
+  <!-- Observer -->
+  <circle cx="980" cy="250" r="28" fill="#bfdbfe" stroke="#1f2937" stroke-width="3"/>
+  <line x1="962" y1="250" x2="998" y2="250" stroke="#1f2937" stroke-width="3"/>
+  <line x1="980" y1="232" x2="980" y2="268" stroke="#1f2937" stroke-width="3"/>
+  <rect x="1020" y="235" width="50" height="30" rx="4" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+  <text x="1020" y="320" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">we observe here</text>
+
+  <!-- Legend -->
+  <rect x="80" y="380" width="220" height="55" rx="10" fill="#fecaca" stroke="#1f2937" stroke-width="3"/>
+  <text x="190" y="415" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#7f1d1d">optical: blocked</text>
+  <rect x="340" y="380" width="220" height="55" rx="10" fill="#bbf7d0" stroke="#1f2937" stroke-width="3"/>
+  <text x="450" y="415" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#065f46">infrared: clearer</text>
+
+  <text x="420" y="360" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">bulge + dusty disk</text>
+
+  <text x="600" y="520" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24" fill="#1f2937">Infrared light helps Roman see through the dust.</text>
+  <text x="600" y="575" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Disk, bulge, and nuclear stellar disk overlap toward the center.</text>
+  <text x="600" y="630" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">That mix is why Hands-On II needs CMD, proper motion, and parallax.</text>
 </svg>

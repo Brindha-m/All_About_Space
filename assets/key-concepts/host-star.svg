@@ -1,25 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="245" cy="285" r="115"/>
-    <circle cx="245" cy="285" r="23" fill="#292727"/>
-    <path d="M430 285h135M537 263l28 22-28 22"/>
-    <circle cx="700" cy="285" r="72"/>
-    <path d="M772 285h110M854 263l28 22-28 22"/>
-    <circle cx="1015" cy="285" r="42"/>
-    <path d="M965 350h100"/>
-  </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h500" stroke="#77c943"/>
-    <path d="M135 445h220" stroke="#3d65d8"/>
-    <path d="M620 405h160" stroke="#f0a020"/>
-    <path d="M935 405h170" stroke="#77c943"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
-    <text x="55" y="84" font-size="44" font-weight="700">Know the star to know the planet</text>
-    <text x="125" y="485" font-size="32" font-weight="700">measured dip</text>
-    <text x="610" y="445" font-size="32" font-weight="700">star size</text>
-    <text x="925" y="445" font-size="32" font-weight="700">planet size</text>
-    <text x="230" y="560" font-size="34">A wrong star radius gives a wrong planet radius.</text>
-  </g>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="34" font-weight="700" fill="#1f2937">Know the star to know the planet</text>
+  <rect x="50" y="82" width="440" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Dip -->
+  <rect x="40" y="140" width="280" height="210" rx="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <line x1="70" y1="220" x2="290" y2="220" stroke="#d1d5db" stroke-width="2"/>
+  <path d="M90 215 H140 C155 215 160 280 185 280 H220 C245 280 250 215 265 215 H280"
+        fill="none" stroke="#f0a020" stroke-width="4"/>
+  <line x1="200" y1="215" x2="200" y2="280" stroke="#3d65d8" stroke-width="3"/>
+  <text x="215" y="255" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#1d4ed8">depth</text>
+  <text x="180" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">measured dip</text>
+
+  <text x="355" y="250" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="36" font-weight="700" fill="#1f2937">+</text>
+
+  <!-- Star size -->
+  <rect x="390" y="140" width="280" height="210" rx="14" fill="#fff7ed" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="530" cy="245" r="55" fill="#fef08a" stroke="#1f2937" stroke-width="4"/>
+  <line x1="530" y1="245" x2="585" y2="245" stroke="#f0a020" stroke-width="3"/>
+  <text x="560" y="235" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#b45309">R★</text>
+  <text x="530" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">star size</text>
+
+  <text x="705" y="250" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="36" font-weight="700" fill="#1f2937">→</text>
+
+  <!-- Planet size -->
+  <rect x="740" y="140" width="400" height="210" rx="14" fill="#d1fae5" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="860" cy="245" r="50" fill="#fef08a" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="860" cy="200" r="14" fill="#1f2937"/>
+  <text x="1000" y="235" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="28" font-weight="700" fill="#1f2937">Rp</text>
+  <text x="1000" y="270" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" fill="#4b5563">planet size</text>
+  <text x="940" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">planet size</text>
+
+  <text x="600" y="520" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24" fill="#1f2937">A wrong star radius gives a wrong planet radius.</text>
+  <text x="600" y="575" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Transit and microlensing mostly measure ratios, not absolute sizes.</text>
+  <text x="600" y="630" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">SED fitting and isochrones are how we pin down the host.</text>
 </svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 260" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6d28d9"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1220" height="260" fill="#fafbfd"/>
+  <text x="610" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#1f2937">From Roman Images to Microlensing Exoplanet Populations</text>
+
+  <!-- Step boxes -->
+  <g font-size="12" fill="#1f2937">
+    <rect x="20" y="70" width="165" height="100" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="102" y="97" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">1. Observe</text>
+    <text x="102" y="122" text-anchor="middle">Roman takes repeated</text>
+    <text x="102" y="140" text-anchor="middle">images of the bulge</text>
+
+    <rect x="218" y="70" width="165" height="100" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="300" y="97" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">2. Measure brightness</text>
+    <text x="300" y="122" text-anchor="middle">photometry of every</text>
+    <text x="300" y="140" text-anchor="middle">star, every visit</text>
+
+    <rect x="416" y="70" width="165" height="100" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="498" y="97" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">3. Identify candidates</text>
+    <text x="498" y="122" text-anchor="middle">flag light curves that</text>
+    <text x="498" y="140" text-anchor="middle">look like lensing</text>
+
+    <rect x="614" y="70" width="165" height="100" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="696" y="97" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">4. Model light curves</text>
+    <text x="696" y="122" text-anchor="middle">fit tE, u0, parallax,</text>
+    <text x="696" y="140" text-anchor="middle">mass ratio q</text>
+
+    <rect x="812" y="70" width="165" height="100" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="894" y="97" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">5. Infer physics</text>
+    <text x="894" y="122" text-anchor="middle">masses and distances</text>
+    <text x="894" y="140" text-anchor="middle">of star and planet</text>
+
+    <rect x="1010" y="70" width="165" height="100" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="1092" y="97" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">6. Population studies</text>
+    <text x="1092" y="122" text-anchor="middle">occurrence rates and</text>
+    <text x="1092" y="140" text-anchor="middle">Galactic demographics</text>
+  </g>
+
+  <!-- Arrows -->
+  <g stroke="#6d28d9" stroke-width="2.5" marker-end="url(#arrow)">
+    <line x1="189" y1="120" x2="214" y2="120"/>
+    <line x1="387" y1="120" x2="412" y2="120"/>
+    <line x1="585" y1="120" x2="610" y2="120"/>
+    <line x1="783" y1="120" x2="808" y2="120"/>
+    <line x1="981" y1="120" x2="1006" y2="120"/>
+  </g>
+
+  <text x="610" y="215" text-anchor="middle" font-size="14" fill="#4b5563">Every stage filters and transforms the data - the population studies at the end inherit every upstream choice.</text>
+</svg>

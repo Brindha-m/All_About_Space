@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6d28d9"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="430" fill="#fafbfd"/>
+  <text x="450" y="40" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2937">Fitting a Microlensing Model to an Observed Light Curve</text>
+
+  <g font-size="14" fill="#1f2937">
+    <rect x="50" y="90" width="210" height="80" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="155" y="124" text-anchor="middle" font-weight="bold" fill="#4c1d95">1. Initial parameter set</text>
+    <text x="155" y="148" text-anchor="middle" font-size="12" fill="#4b5563">e.g. t0, u0, tE for PSPL</text>
+
+    <rect x="330" y="90" width="220" height="80" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="440" y="118" text-anchor="middle" font-weight="bold" fill="#4c1d95">2. Generate theoretical</text>
+    <text x="440" y="138" text-anchor="middle" font-weight="bold" fill="#4c1d95">light curve</text>
+    <text x="440" y="160" text-anchor="middle" font-size="12" fill="#4b5563">predict flux versus time</text>
+
+    <rect x="620" y="90" width="230" height="80" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="735" y="118" text-anchor="middle" font-weight="bold" fill="#4c1d95">3. Evaluate objective</text>
+    <text x="735" y="140" text-anchor="middle" font-size="12" fill="#4b5563">chi-squared, likelihood,</text>
+    <text x="735" y="158" text-anchor="middle" font-size="12" fill="#4b5563">or posterior probability</text>
+
+    <rect x="330" y="270" width="220" height="80" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="440" y="300" text-anchor="middle" font-weight="bold" fill="#854d0e">4. Choose next</text>
+    <text x="440" y="320" text-anchor="middle" font-weight="bold" fill="#854d0e">parameter set</text>
+    <text x="440" y="342" text-anchor="middle" font-size="12" fill="#4b5563">MCMC, nested sampling, ...</text>
+  </g>
+
+  <g stroke="#6d28d9" stroke-width="2.5" fill="none" marker-end="url(#arrow2)">
+    <line x1="264" y1="130" x2="326" y2="130"/>
+    <line x1="554" y1="130" x2="616" y2="130"/>
+    <path d="M 735 174 C 735 250, 640 305, 556 310"/>
+    <path d="M 440 266 L 440 178"/>
+  </g>
+  <text x="672" y="262" font-size="13" fill="#6d28d9" font-style="italic">repeat until converged</text>
+
+  <text x="450" y="405" text-anchor="middle" font-size="13" fill="#4b5563">Output: best-fit parameters with uncertainties - the inputs for inferring lens mass and distance.</text>
+</svg>

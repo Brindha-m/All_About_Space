@@ -1,29 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <ellipse cx="175" cy="285" rx="115" ry="45"/>
-    <circle cx="175" cy="285" r="35"/>
-    <circle cx="125" cy="278" r="5" fill="#292727"/><circle cx="230" cy="302" r="7" fill="#292727"/>
-    <path d="M300 285h95M369 263l28 22-28 22"/>
-    <ellipse cx="525" cy="285" rx="100" ry="45"/>
-    <circle cx="525" cy="285" r="35"/>
-    <circle cx="470" cy="275" r="14"/><circle cx="590" cy="300" r="18"/>
-    <path d="M635 285h95M704 263l28 22-28 22"/>
-    <circle cx="865" cy="285" r="58"/>
-    <ellipse cx="865" cy="285" rx="135" ry="55"/>
-    <circle cx="995" cy="285" r="18" fill="#292727"/>
-  </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h410" stroke="#77c943"/>
-    <path d="M85 400h185" stroke="#3d65d8"/>
-    <path d="M435 400h185" stroke="#f0a020"/>
-    <path d="M775 400h275" stroke="#77c943"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
-    <text x="55" y="84" font-size="44" font-weight="700">Planets grow inside a disk</text>
-    <text x="90" y="440" font-size="32" font-weight="700">dust grains</text>
-    <text x="435" y="440" font-size="32" font-weight="700">rocky pieces</text>
-    <text x="775" y="440" font-size="32" font-weight="700">young planets</text>
-    <text x="150" y="550" font-size="34">Small pieces collide, stick, and slowly build worlds.</text>
-  </g>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="34" font-weight="700" fill="#1f2937">Planets grow inside a disk</text>
+  <rect x="50" y="82" width="380" height="8" rx="4" fill="#77c943"/>
+
+  <!-- 1 Nebula -->
+  <ellipse cx="130" cy="260" rx="85" ry="75" fill="#e9d5ff" stroke="#1f2937" stroke-width="4"/>
+  <path d="M80 250 Q110 210 150 245" fill="none" stroke="#7c3aed" stroke-width="3"/>
+  <path d="M100 290 Q140 310 170 270" fill="none" stroke="#7c3aed" stroke-width="3"/>
+  <circle cx="110" cy="240" r="3" fill="#1f2937"/><circle cx="150" cy="270" r="2" fill="#1f2937"/>
+  <text x="130" y="390" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">1. nebula</text>
+  <text x="130" y="418" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">gas + dust cloud</text>
+
+  <path d="M230 260h40" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <path d="M255 248l18 12-18 12" fill="none" stroke="#1f2937" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 2 Dust disk -->
+  <ellipse cx="400" cy="260" rx="95" ry="28" fill="#fde68a" stroke="#1f2937" stroke-width="4"/>
+  <circle cx="400" cy="260" r="26" fill="#fef08a" stroke="#1f2937" stroke-width="4"/>
+  <circle cx="345" cy="255" r="4" fill="#92400e"/><circle cx="455" cy="265" r="5" fill="#92400e"/>
+  <circle cx="380" cy="268" r="3" fill="#92400e"/>
+  <text x="400" y="390" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">2. dust disk</text>
+  <text x="400" y="418" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">grains around a young star</text>
+
+  <path d="M510 260h40" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <path d="M535 248l18 12-18 12" fill="none" stroke="#1f2937" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 3 Rocky pieces -->
+  <ellipse cx="670" cy="260" rx="95" ry="26" fill="none" stroke="#1f2937" stroke-width="4"/>
+  <circle cx="670" cy="260" r="24" fill="#fef08a" stroke="#1f2937" stroke-width="4"/>
+  <circle cx="610" cy="252" r="12" fill="#a8a29e" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="725" cy="268" r="16" fill="#78716c" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="690" cy="245" r="9" fill="#d6d3d1" stroke="#1f2937" stroke-width="3"/>
+  <text x="670" y="390" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">3. rocky pieces</text>
+  <text x="670" y="418" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">collide and stick</text>
+
+  <path d="M780 260h40" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <path d="M805 248l18 12-18 12" fill="none" stroke="#1f2937" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 4 Planets -->
+  <circle cx="980" cy="260" r="28" fill="#fef08a" stroke="#1f2937" stroke-width="4"/>
+  <ellipse cx="980" cy="260" rx="55" ry="14" fill="none" stroke="#9ca3af" stroke-width="2"/>
+  <ellipse cx="980" cy="260" rx="90" ry="24" fill="none" stroke="#9ca3af" stroke-width="2"/>
+  <ellipse cx="980" cy="260" rx="125" ry="34" fill="none" stroke="#9ca3af" stroke-width="2"/>
+  <circle cx="1030" cy="260" r="7" fill="#60a5fa" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="1065" cy="272" r="11" fill="#f97316" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="1095" cy="245" r="9" fill="#34d399" stroke="#1f2937" stroke-width="2"/>
+  <text x="980" y="390" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">4. planets</text>
+  <text x="980" y="418" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">finished system</text>
+
+  <text x="600" y="520" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="26" font-weight="700" fill="#1f2937">Small pieces collide, stick, and slowly build worlds.</text>
+  <text x="600" y="570" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">The snow line and disk metallicity shape final planet populations.</text>
+  <text x="600" y="620" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">That sequence is step one for understanding Roman yields.</text>
 </svg>

@@ -1,29 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="70" y="175" width="275" height="100" rx="18"/>
-    <rect x="460" y="175" width="275" height="100" rx="18"/>
-    <rect x="850" y="175" width="275" height="100" rx="18"/>
-    <path d="M345 225h115M432 203l28 22-28 22M735 225h115M822 203l28 22-28 22"/>
-    <circle cx="150" cy="225" r="18" fill="#292727"/>
-    <circle cx="520" cy="225" r="18" fill="#292727"/><circle cx="570" cy="225" r="10"/>
-    <circle cx="915" cy="225" r="18" fill="#292727"/><circle cx="965" cy="225" r="10"/><path d="M1015 195c35 25 35 55 0 80"/>
-  </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h495" stroke="#77c943"/>
-    <path d="M90 335h230" stroke="#3d65d8"/>
-    <path d="M480 335h230" stroke="#f0a020"/>
-    <path d="M870 335h230" stroke="#77c943"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive" text-anchor="middle">
-    <text x="55" y="84" font-size="44" font-weight="700" text-anchor="start">Start simple, then add complexity</text>
-    <text x="207" y="375" font-size="31" font-weight="700">one lens</text>
-    <text x="207" y="415" font-size="28">basic event</text>
-    <text x="597" y="375" font-size="31" font-weight="700">two lenses</text>
-    <text x="597" y="415" font-size="28">planet or binary</text>
-    <text x="987" y="375" font-size="31" font-weight="700">extra effects</text>
-    <text x="987" y="415" font-size="28">parallax or motion</text>
-    <text x="600" y="525" font-size="33">Add a harder model only when the data require it.</text>
-    <text x="600" y="580" font-size="28">This reduces overfitting and false discoveries.</text>
-  </g>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="34" font-weight="700" fill="#1f2937">Start simple, then add complexity</text>
+  <rect x="50" y="82" width="440" height="8" rx="4" fill="#77c943"/>
+
+  <!-- One lens -->
+  <rect x="50" y="140" width="300" height="220" rx="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="120" cy="250" r="16" fill="#fde68a" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="240" cy="250" r="22" fill="#1f2937"/>
+  <path d="M140 235 C175 190 210 190 225 235" fill="none" stroke="#3d65d8" stroke-width="3"/>
+  <path d="M140 265 C175 310 210 310 225 265" fill="none" stroke="#3d65d8" stroke-width="3"/>
+  <text x="200" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" font-weight="700" fill="#1f2937">1. one lens</text>
+  <text x="200" y="430" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">basic event</text>
+
+  <path d="M360 250h70" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <path d="M410 238l20 12-20 12" fill="none" stroke="#1f2937" stroke-width="4"/>
+
+  <!-- Two lenses -->
+  <rect x="445" y="140" width="300" height="220" rx="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="510" cy="250" r="14" fill="#fde68a" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="610" cy="235" r="24" fill="#1f2937"/>
+  <circle cx="665" cy="280" r="12" fill="#60a5fa" stroke="#1f2937" stroke-width="3"/>
+  <line x1="628" y1="250" x2="655" y2="270" stroke="#1f2937" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="595" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" font-weight="700" fill="#1f2937">2. two lenses</text>
+  <text x="595" y="430" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">planet or binary</text>
+
+  <path d="M755 250h70" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <path d="M805 238l20 12-20 12" fill="none" stroke="#1f2937" stroke-width="4"/>
+
+  <!-- Extra effects -->
+  <rect x="840" y="140" width="300" height="220" rx="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="920" cy="250" r="18" fill="#1f2937"/>
+  <circle cx="1000" cy="250" r="12" fill="#fde68a" stroke="#1f2937" stroke-width="3"/>
+  <ellipse cx="1000" cy="250" rx="55" ry="22" fill="none" stroke="#f0a020" stroke-width="3" stroke-dasharray="6 4"/>
+  <circle cx="1050" cy="250" r="8" fill="#60a5fa" stroke="#1f2937" stroke-width="2"/>
+  <path d="M920 200 Q950 175 980 200" fill="none" stroke="#16a34a" stroke-width="3"/>
+  <text x="990" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" font-weight="700" fill="#1f2937">3. extra effects</text>
+  <text x="990" y="430" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">parallax or motion</text>
+
+  <text x="600" y="520" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24" fill="#1f2937">Add a harder model only when the data require it.</text>
+  <text x="600" y="570" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">This reduces overfitting and false discoveries.</text>
+  <text x="600" y="620" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Each new parameter must earn its place in the fit.</text>
 </svg>

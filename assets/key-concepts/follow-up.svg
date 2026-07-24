@@ -1,29 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="600" cy="285" r="65"/>
-    <path d="M535 285h130M600 220v130"/>
-    <path d="M500 250C390 180 310 180 225 220M500 320C390 390 310 390 225 350"/>
-    <path d="M700 250c110-70 190-70 275-30M700 320c110 70 190 70 275 30"/>
-    <path d="M225 170l65 105-130 0z"/>
-    <rect x="905" y="170" width="140" height="105" rx="16"/>
-    <path d="M940 275l-20 70h110l-20-70"/>
-    <circle cx="225" cy="430" r="48"/>
-    <path d="M205 430h40M225 410v40"/>
-    <circle cx="975" cy="430" r="48"/>
-    <path d="M955 430h40M975 410v40"/>
-  </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h430" stroke="#77c943"/>
-    <path d="M125 510h200" stroke="#3d65d8"/>
-    <path d="M500 390h200" stroke="#f0a020"/>
-    <path d="M870 510h210" stroke="#77c943"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
-    <text x="55" y="84" font-size="44" font-weight="700">More telescopes add more clues</text>
-    <text x="125" y="550" font-size="31" font-weight="700">earlier images</text>
-    <text x="500" y="430" font-size="31" font-weight="700">Roman event</text>
-    <text x="860" y="550" font-size="31" font-weight="700">later images</text>
-    <text x="280" y="600" font-size="28">Longer timelines help measure motion, distance, and mass.</text>
-  </g>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="34" font-weight="700" fill="#1f2937">More telescopes add more clues</text>
+  <rect x="50" y="82" width="420" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Timeline -->
+  <line x1="100" y1="300" x2="1100" y2="300" stroke="#1f2937" stroke-width="4"/>
+
+  <!-- Past -->
+  <circle cx="220" cy="300" r="12" fill="#3d65d8"/>
+  <rect x="120" y="130" width="200" height="130" rx="12" fill="#dbeafe" stroke="#1f2937" stroke-width="3"/>
+  <path d="M170 220 L210 175 H230 L220 230 Z" fill="#bfdbfe" stroke="#1f2937" stroke-width="3"/>
+  <line x1="185" y1="230" x2="230" y2="230" stroke="#1f2937" stroke-width="3"/>
+  <text x="220" y="350" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">earlier images</text>
+  <text x="220" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#4b5563">baseline</text>
+
+  <!-- Now -->
+  <circle cx="600" cy="300" r="14" fill="#f0a020"/>
+  <rect x="480" y="130" width="240" height="130" rx="12" fill="#fef9c3" stroke="#1f2937" stroke-width="3"/>
+  <rect x="520" y="160" width="90" height="30" rx="6" fill="#bfdbfe" stroke="#1f2937" stroke-width="2"/>
+  <rect x="610" y="168" width="30" height="16" fill="#93c5fd" stroke="#1f2937" stroke-width="2"/>
+  <path d="M520 220 C555 220 570 215 590 185 C605 160 620 160 640 185 C660 215 675 220 700 220" fill="none" stroke="#3d65d8" stroke-width="3"/>
+  <text x="600" y="350" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">Roman event</text>
+  <text x="600" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#4b5563">discovery</text>
+
+  <!-- Future -->
+  <circle cx="980" cy="300" r="12" fill="#77c943"/>
+  <rect x="860" y="130" width="240" height="130" rx="12" fill="#d1fae5" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="930" cy="185" r="14" fill="#1f2937"/>
+  <circle cx="1020" cy="185" r="12" fill="#fde68a" stroke="#1f2937" stroke-width="2"/>
+  <line x1="948" y1="185" x2="1004" y2="185" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="975" y="230" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="14" fill="#4b5563">lens · source apart</text>
+  <text x="980" y="350" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">later images</text>
+  <text x="980" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#4b5563">mass &amp; distance</text>
+
+  <text x="600" y="520" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24" fill="#1f2937">Longer timelines help measure motion, distance, and mass.</text>
+  <text x="600" y="580" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Years later, lens and source can separate enough to be seen apart.</text>
 </svg>

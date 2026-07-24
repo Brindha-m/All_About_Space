@@ -1,22 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M80 420h1030"/>
-    <path d="M95 405c175 0 245-8 310-45 72-42 77-200 130-200s58 158 130 200c65 37 135 45 430 45"/>
-    <path d="M470 160V420M600 178v224"/>
-    <path d="M470 135h130M470 120v30M600 120v30"/>
-    <path d="M520 420v60M550 420v60M520 470h30"/>
-  </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h470" stroke="#77c943"/>
-    <path d="M410 515h230" stroke="#f0a020"/>
-    <path d="M740 300h280" stroke="#3d65d8"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
-    <text x="55" y="84" font-size="44" font-weight="700">A light curve tells us three basics</text>
-    <text x="625" y="145" font-size="31">when it peaks</text>
-    <text x="740" y="340" font-size="31" font-weight="700">how bright it gets</text>
-    <text x="410" y="555" font-size="31" font-weight="700">how long it lasts</text>
-    <text x="70" y="615" font-size="26">Together these describe the lens and its motion.</text>
-  </g>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="34" font-weight="700" fill="#1f2937">A light curve tells us three basics</text>
+  <rect x="50" y="82" width="460" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Axes -->
+  <line x1="100" y1="420" x2="750" y2="420" stroke="#1f2937" stroke-width="3"/>
+  <line x1="100" y1="420" x2="100" y2="140" stroke="#1f2937" stroke-width="3"/>
+  <text x="70" y="200" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" fill="#4b5563" transform="rotate(-90 70 200)">flux</text>
+  <text x="720" y="450" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" fill="#4b5563">time</text>
+
+  <!-- Curve -->
+  <path d="M120 400 C250 400 320 390 380 300 C430 220 460 160 500 160 C540 160 570 220 620 300 C680 390 720 400 740 400"
+        fill="none" stroke="#3d65d8" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- t0 -->
+  <line x1="500" y1="160" x2="500" y2="420" stroke="#f0a020" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="510" y="145" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" font-weight="700" fill="#b45309">t₀ = when it peaks</text>
+
+  <!-- Amax -->
+  <line x1="660" y1="400" x2="660" y2="180" stroke="#16a34a" stroke-width="3"/>
+  <path d="M650 190l10-18 10 18" fill="none" stroke="#16a34a" stroke-width="3"/>
+  <path d="M650 390l10 18 10-18" fill="none" stroke="#16a34a" stroke-width="3"/>
+  <text x="675" y="280" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" font-weight="700" fill="#15803d">Aₘₐₓ</text>
+  <text x="675" y="305" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#15803d">how bright</text>
+
+  <!-- tE -->
+  <line x1="380" y1="470" x2="620" y2="470" stroke="#1f2937" stroke-width="3"/>
+  <line x1="380" y1="460" x2="380" y2="480" stroke="#1f2937" stroke-width="3"/>
+  <line x1="620" y1="460" x2="620" y2="480" stroke="#1f2937" stroke-width="3"/>
+  <text x="500" y="505" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" font-weight="700" fill="#1f2937">tᴇ = how long it lasts</text>
+
+  <!-- Inset geometry -->
+  <rect x="820" y="140" width="320" height="200" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <text x="980" y="175" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">alignment on the sky</text>
+  <circle cx="880" cy="250" r="14" fill="#fde68a" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="980" cy="250" r="18" fill="#1f2937"/>
+  <circle cx="1080" cy="250" r="12" fill="#bfdbfe" stroke="#1f2937" stroke-width="3"/>
+  <line x1="898" y1="250" x2="958" y2="250" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="1002" y1="250" x2="1064" y2="250" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="880" y="300" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="14" fill="#4b5563">source</text>
+  <text x="980" y="300" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="14" fill="#4b5563">lens</text>
+  <text x="1080" y="300" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="14" fill="#4b5563">us</text>
+
+  <text x="600" y="580" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24" fill="#1f2937">Together these describe the lens and its motion.</text>
+  <text x="600" y="630" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Duration (tᴇ) depends on mass, distance, and relative speed.</text>
 </svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="960" height="560" fill="#fafbfd"/>
+  <text x="480" y="40" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2937">Microlensing Model Categories</text>
+
+  <!-- Header row -->
+  <g font-size="14" font-weight="bold" fill="#4c1d95">
+    <text x="125" y="90" text-anchor="middle">Acronym</text>
+    <text x="315" y="90" text-anchor="middle">Source</text>
+    <text x="505" y="90" text-anchor="middle">Lens</text>
+    <text x="765" y="90" text-anchor="middle">Common higher-order effects</text>
+  </g>
+
+  <!-- Rows -->
+  <g font-size="13" fill="#1f2937">
+    <!-- PSPL -->
+    <rect x="40" y="108" width="170" height="46" rx="8" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="125" y="136" text-anchor="middle" font-weight="bold">PSPL (1L1S)</text>
+    <rect x="230" y="108" width="170" height="46" rx="8" fill="#ffffff" stroke="#9ca3af"/>
+    <text x="315" y="136" text-anchor="middle">Point source</text>
+    <rect x="420" y="108" width="170" height="46" rx="8" fill="#fef9c3" stroke="#ca8a04"/>
+    <text x="505" y="136" text-anchor="middle">Point lens</text>
+    <text x="620" y="136" font-size="12" fill="#4b5563">parallax</text>
+
+    <!-- FSPL -->
+    <rect x="40" y="170" width="170" height="46" rx="8" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="125" y="198" text-anchor="middle" font-weight="bold">FSPL (1L1S)</text>
+    <rect x="230" y="170" width="170" height="46" rx="8" fill="#ffffff" stroke="#9ca3af"/>
+    <text x="315" y="198" text-anchor="middle">Finite source</text>
+    <rect x="420" y="170" width="170" height="46" rx="8" fill="#fef9c3" stroke="#ca8a04"/>
+    <text x="505" y="198" text-anchor="middle">Point lens</text>
+    <text x="620" y="198" font-size="12" fill="#4b5563">parallax</text>
+
+    <!-- FSBL -->
+    <rect x="40" y="232" width="170" height="46" rx="8" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="125" y="260" text-anchor="middle" font-weight="bold">FSBL (2L1S)</text>
+    <rect x="230" y="232" width="170" height="46" rx="8" fill="#ffffff" stroke="#9ca3af"/>
+    <text x="315" y="260" text-anchor="middle">Finite source</text>
+    <rect x="420" y="232" width="170" height="46" rx="8" fill="#fef9c3" stroke="#ca8a04"/>
+    <text x="505" y="260" text-anchor="middle">Binary lens</text>
+    <text x="620" y="260" font-size="12" fill="#4b5563">parallax, lens orbital motion</text>
+
+    <!-- BSPL -->
+    <rect x="40" y="294" width="170" height="46" rx="8" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="125" y="322" text-anchor="middle" font-weight="bold">BSPL, DSSL (1L2S)</text>
+    <rect x="230" y="294" width="170" height="46" rx="8" fill="#ffffff" stroke="#9ca3af"/>
+    <text x="315" y="322" text-anchor="middle">Binary source</text>
+    <rect x="420" y="294" width="170" height="46" rx="8" fill="#fef9c3" stroke="#ca8a04"/>
+    <text x="505" y="322" text-anchor="middle">Point lens</text>
+    <text x="620" y="322" font-size="12" fill="#4b5563">parallax, xallarap</text>
+
+    <!-- BSBL -->
+    <rect x="40" y="356" width="170" height="46" rx="8" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="125" y="384" text-anchor="middle" font-weight="bold">BSBL (2L2S)</text>
+    <rect x="230" y="356" width="170" height="46" rx="8" fill="#ffffff" stroke="#9ca3af"/>
+    <text x="315" y="384" text-anchor="middle">Binary source</text>
+    <rect x="420" y="356" width="170" height="46" rx="8" fill="#fef9c3" stroke="#ca8a04"/>
+    <text x="505" y="384" text-anchor="middle">Binary lens</text>
+    <text x="620" y="384" font-size="12" fill="#4b5563">parallax, xallarap, orbital motion</text>
+
+    <!-- 3L1S -->
+    <rect x="40" y="418" width="170" height="46" rx="8" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="125" y="446" text-anchor="middle" font-weight="bold">3L1S</text>
+    <rect x="230" y="418" width="170" height="46" rx="8" fill="#ffffff" stroke="#9ca3af"/>
+    <text x="315" y="446" text-anchor="middle">Finite source</text>
+    <rect x="420" y="418" width="170" height="46" rx="8" fill="#fef9c3" stroke="#ca8a04"/>
+    <text x="505" y="446" text-anchor="middle">Triple lens</text>
+    <text x="620" y="446" font-size="12" fill="#4b5563">parallax, orbital motion</text>
+  </g>
+
+  <rect x="40" y="492" width="880" height="42" rx="8" fill="#d1fae5"/>
+  <text x="480" y="518" text-anchor="middle" font-size="14" fill="#065f46" font-weight="bold">Start with the simplest model and add complexity only when the data justify it - this avoids overfitting.</text>
+</svg>

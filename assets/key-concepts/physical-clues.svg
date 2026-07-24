@@ -1,34 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="190" cy="225" r="65"/>
-    <path d="M145 225h90M190 180v90"/>
-    <circle cx="510" cy="225" r="65"/>
-    <path d="M475 245c30-60 55-60 75 0"/>
-    <circle cx="830" cy="225" r="65"/>
-    <path d="M785 245c20-55 70-55 90 0M800 260h60"/>
-    <path d="M255 225h175M575 225h175M895 225h120"/>
-    <path d="M405 203l28 22-28 22M725 203l28 22-28 22M990 203l28 22-28 22"/>
-    <rect x="1015" y="175" width="135" height="100" rx="18"/>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="34" font-weight="700" fill="#1f2937">Extra clues reveal the hidden lens</text>
+  <rect x="50" y="82" width="460" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Clue 1 -->
+  <rect x="50" y="130" width="240" height="230" rx="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="100" cy="230" r="10" fill="#1f2937"/>
+  <line x1="100" y1="230" x2="220" y2="170" stroke="#3d65d8" stroke-width="4"/>
+  <line x1="100" y1="230" x2="220" y2="290" stroke="#3d65d8" stroke-width="4"/>
+  <path d="M175 195 A55 55 0 0 1 175 265" fill="none" stroke="#f0a020" stroke-width="4"/>
+  <text x="170" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">Einstein angle</text>
+  <text x="170" y="428" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">event size on sky</text>
+
+  <!-- Clue 2 -->
+  <rect x="330" y="130" width="240" height="230" rx="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="450" cy="230" r="10" fill="#fde68a" stroke="#1f2937" stroke-width="2"/>
+  <ellipse cx="450" cy="230" rx="75" ry="30" fill="none" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="380" cy="230" r="12" fill="#60a5fa" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="520" cy="230" r="12" fill="#93c5fd" stroke="#1f2937" stroke-width="2" opacity="0.5"/>
+  <path d="M380 250 Q450 290 520 250" fill="none" stroke="#f0a020" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="450" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">parallax</text>
+  <text x="450" y="428" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">Earth's viewpoint shift</text>
+
+  <!-- Clue 3 -->
+  <rect x="610" y="130" width="240" height="230" rx="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="730" cy="230" r="45" fill="#fef08a" stroke="#1f2937" stroke-width="3"/>
+  <g stroke="#1f2937" stroke-width="3" stroke-linecap="round">
+    <line x1="730" y1="170" x2="730" y2="155"/><line x1="730" y1="305" x2="730" y2="290"/>
+    <line x1="670" y1="230" x2="655" y2="230"/><line x1="805" y1="230" x2="790" y2="230"/>
   </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h465" stroke="#77c943"/>
-    <path d="M95 335h190" stroke="#3d65d8"/>
-    <path d="M415 335h190" stroke="#f0a020"/>
-    <path d="M735 335h190" stroke="#77c943"/>
-    <path d="M1005 335h150" stroke="#3d65d8"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive" text-anchor="middle">
-    <text x="55" y="84" font-size="44" font-weight="700" text-anchor="start">Extra clues reveal the hidden lens</text>
-    <text x="190" y="375" font-size="29" font-weight="700">Einstein angle</text>
-    <text x="190" y="415" font-size="27">event size</text>
-    <text x="510" y="375" font-size="29" font-weight="700">parallax</text>
-    <text x="510" y="415" font-size="27">viewpoint shift</text>
-    <text x="830" y="375" font-size="29" font-weight="700">lens light</text>
-    <text x="830" y="415" font-size="27">host brightness</text>
-    <text x="1082" y="375" font-size="29" font-weight="700">mass</text>
-    <text x="1082" y="415" font-size="27">and distance</text>
-    <text x="600" y="535" font-size="32">Usually, two strong clues can break the main degeneracy.</text>
-    <text x="600" y="585" font-size="27">Without them, Galactic models provide statistical estimates.</text>
-  </g>
+  <text x="730" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">lens light</text>
+  <text x="730" y="428" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">host brightness</text>
+
+  <path d="M865 245h50" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <path d="M895 233l20 12-20 12" fill="none" stroke="#1f2937" stroke-width="4"/>
+
+  <!-- Result -->
+  <rect x="930" y="150" width="220" height="190" rx="14" fill="#d1fae5" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="1000" cy="220" r="22" fill="#1f2937"/>
+  <text x="1085" y="215" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">mass</text>
+  <text x="1085" y="250" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">distance</text>
+  <text x="1040" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">mass + distance</text>
+
+  <text x="600" y="520" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24" fill="#1f2937">Usually, two strong clues can break the main degeneracy.</text>
+  <text x="600" y="570" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Without them, Galactic models give statistical estimates.</text>
+  <text x="600" y="620" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">That is the heart of the Hands-On II mass calculation.</text>
 </svg>

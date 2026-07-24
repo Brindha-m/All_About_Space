@@ -1,23 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="275" cy="300" r="130"/>
-    <circle cx="275" cy="300" r="25" fill="#292727"/>
-    <path d="M72 300h406M449 278l29 22-29 22"/>
-    <path d="M600 205h530M600 205c125 0 148 0 180 0 25 0 28 150 68 150h90c40 0 43-150 68-150h124"/>
-    <path d="M848 355v70M938 355v70M848 410h90"/>
-  </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h565" stroke="#77c943"/>
-    <path d="M150 490h245" stroke="#f0a020"/>
-    <path d="M810 480h175" stroke="#3d65d8"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
-    <text x="55" y="86" font-size="46" font-weight="700">Transit = a planet blocks some light</text>
-    <text x="155" y="480" font-size="35" font-weight="700">planet crosses star</text>
-    <text x="610" y="175" font-size="32">normal brightness</text>
-    <text x="800" y="470" font-size="35" font-weight="700">small dip</text>
-    <text x="630" y="540" font-size="34">Deeper dip = bigger planet</text>
-    <text x="630" y="590" font-size="30">Repeating dips tell us the orbit time</text>
-  </g>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="34" font-weight="700" fill="#1f2937">Transit = a planet blocks some light</text>
+  <rect x="50" y="82" width="500" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Star + planet -->
+  <circle cx="260" cy="260" r="110" fill="#fef08a" stroke="#1f2937" stroke-width="4"/>
+  <circle cx="260" cy="185" r="20" fill="#1f2937"/>
+  <path d="M140 260 Q260 120 380 260" fill="none" stroke="#9ca3af" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M360 200h40" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+  <path d="M385 188l15 12-15 12" fill="none" stroke="#1f2937" stroke-width="3"/>
+  <text x="260" y="430" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" font-weight="700" fill="#1f2937">planet crosses star</text>
+  <text x="260" y="458" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="16" fill="#6b7280">from our point of view</text>
+
+  <!-- Light curve -->
+  <rect x="520" y="130" width="600" height="260" rx="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <text x="540" y="165" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">light curve</text>
+  <line x1="560" y1="230" x2="1080" y2="230" stroke="#d1d5db" stroke-width="2"/>
+  <path d="M580 225 H700 C720 225 728 310 760 310 H880 C912 310 920 225 940 225 H1060"
+        fill="none" stroke="#f0a020" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="820" y1="225" x2="820" y2="310" stroke="#3d65d8" stroke-width="3"/>
+  <path d="M810 240l10-15 10 15" fill="none" stroke="#3d65d8" stroke-width="3"/>
+  <path d="M810 295l10 15 10-15" fill="none" stroke="#3d65d8" stroke-width="3"/>
+  <text x="840" y="275" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1d4ed8">depth</text>
+  <text x="820" y="430" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" font-weight="700" fill="#1f2937">dip depth → planet size</text>
+
+  <text x="600" y="540" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24" fill="#1f2937">Deeper dip = bigger planet relative to the star.</text>
+  <text x="600" y="590" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Repeating dips give the orbital period.</text>
+  <text x="600" y="640" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Depth measures planet radius relative to star radius.</text>
 </svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 440" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6d28d9"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="980" height="440" fill="#fafbfd"/>
+  <text x="490" y="40" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2937">The Microlensing Pipeline in Three Stages</text>
+
+  <g font-size="12.5" fill="#374151">
+    <rect x="30" y="80" width="290" height="280" rx="12" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="175" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#4c1d95">1. Identify candidates</text>
+    <text x="50" y="148">- we cannot model every light curve</text>
+    <text x="50" y="176">- select promising events using the</text>
+    <text x="60" y="194">expected features of lensing:</text>
+    <text x="60" y="212">a single smooth achromatic peak</text>
+    <text x="50" y="244">- reject variables, supernovae,</text>
+    <text x="60" y="262">and instrumental artifacts</text>
+
+    <rect x="345" y="80" width="290" height="280" rx="12" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="490" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#4c1d95">2. Model light curves</text>
+    <text x="365" y="148">- start with the simplest model</text>
+    <text x="365" y="176">- add complexity only when needed</text>
+    <text x="365" y="204">- generate theoretical curves and</text>
+    <text x="375" y="222">compare them to the data</text>
+    <text x="365" y="250">- explore parameter space; use</text>
+    <text x="375" y="268">different methods for exploration,</text>
+    <text x="375" y="286">optimization, and posteriors</text>
+    <text x="365" y="314">- several public tools available</text>
+
+    <rect x="660" y="80" width="290" height="280" rx="12" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="805" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#4c1d95">3. Infer physical properties</text>
+    <text x="680" y="148">- mass and distance need two of:</text>
+    <text x="690" y="172" font-weight="bold" fill="#1f2937">theta_E, pi_E, lens flux</text>
+    <text x="680" y="204">- with direct constraints missing,</text>
+    <text x="690" y="222">estimate them statistically using</text>
+    <text x="690" y="240">a Galactic model plus the fitted</text>
+    <text x="690" y="258">light-curve parameters</text>
+    <text x="680" y="290">- this is exactly the Hands-On II</text>
+    <text x="690" y="308">group-project workflow</text>
+  </g>
+
+  <g stroke="#6d28d9" stroke-width="2.5" marker-end="url(#arrow3)">
+    <line x1="322" y1="220" x2="341" y2="220"/>
+    <line x1="637" y1="220" x2="656" y2="220"/>
+  </g>
+
+  <text x="490" y="405" text-anchor="middle" font-size="13" fill="#4b5563">Candidates that survive all three stages become the exoplanet detections that feed occurrence-rate studies.</text>
+</svg>

@@ -1,25 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M70 230h300M70 230c65 0 73 0 92 0 18 0 20 95 45 95h48c25 0 27-95 45-95h70"/>
-    <circle cx="220" cy="425" r="62"/><circle cx="220" cy="425" r="18" fill="#292727"/>
-    <path d="M450 285h105M527 263l28 22-28 22"/>
-    <path d="M630 200h190v145H630zM650 225l40 40M690 225l-40 40M720 225l75 0M720 265h55M650 305h125"/>
-    <path d="M850 285h105M927 263l28 22-28 22"/>
-    <circle cx="1040" cy="285" r="72"/>
-    <path d="M1002 285l25 25 52-58"/>
-  </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h430" stroke="#77c943"/>
-    <path d="M80 500h280" stroke="#3d65d8"/>
-    <path d="M620 400h210" stroke="#f0a020"/>
-    <path d="M960 400h165" stroke="#77c943"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
-    <text x="55" y="84" font-size="44" font-weight="700">A dip is only a planet candidate</text>
-    <text x="80" y="540" font-size="32" font-weight="700">find a repeating dip</text>
-    <text x="615" y="440" font-size="32" font-weight="700">check other causes</text>
-    <text x="955" y="440" font-size="32" font-weight="700">keep the best</text>
-    <text x="320" y="585" font-size="30">Noise and binary stars can copy a transit.</text>
-  </g>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="34" font-weight="700" fill="#1f2937">A dip is only a planet candidate</text>
+  <rect x="50" y="82" width="440" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Step 1 -->
+  <rect x="40" y="130" width="300" height="220" rx="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <line x1="70" y1="210" x2="310" y2="210" stroke="#d1d5db" stroke-width="2"/>
+  <path d="M90 205 H140 C155 205 160 260 180 260 H230 C250 260 255 205 270 205 H300"
+        fill="none" stroke="#f0a020" stroke-width="4"/>
+  <circle cx="190" cy="300" r="16" fill="#fef08a" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="190" cy="288" r="6" fill="#1f2937"/>
+  <text x="190" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">1. find a repeating dip</text>
+
+  <path d="M350 240h50" stroke="#1f2937" stroke-width="3"/><path d="M380 228l20 12-20 12" fill="none" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- Step 2 -->
+  <rect x="410" y="130" width="340" height="220" rx="14" fill="#fee2e2" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="480" cy="220" r="22" fill="#fde68a" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="525" cy="220" r="14" fill="#1f2937"/>
+  <text x="502" y="175" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="14" fill="#b91c1c">binary</text>
+  <line x1="540" y1="195" x2="575" y2="165" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
+  <line x1="560" y1="165" x2="575" y2="165" stroke="#dc2626" stroke-width="4"/><line x1="575" y1="165" x2="575" y2="180" stroke="#dc2626" stroke-width="4"/>
+  <circle cx="640" cy="250" r="18" fill="#fde68a" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="670" cy="230" r="10" fill="#a8a29e" stroke="#1f2937" stroke-width="2"/>
+  <text x="655" y="300" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="14" fill="#b91c1c">blend</text>
+  <line x1="690" y1="215" x2="725" y2="185" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
+  <text x="580" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">2. reject impostors</text>
+  <text x="580" y="428" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="15" fill="#6b7280">binaries · blends · noise</text>
+
+  <path d="M760 240h50" stroke="#1f2937" stroke-width="3"/><path d="M790 228l20 12-20 12" fill="none" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- Step 3 -->
+  <rect x="820" y="130" width="320" height="220" rx="14" fill="#d1fae5" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="920" cy="230" r="45" fill="#fef08a" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="920" cy="190" r="12" fill="#1f2937"/>
+  <path d="M1010 210 l22 22 45-50" fill="none" stroke="#047857" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="980" y="400" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">3. keep real planets</text>
+
+  <text x="600" y="540" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24" fill="#1f2937">Noise and binary stars can copy a transit signal.</text>
+  <text x="600" y="600" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Vetting turns a candidate list into a reliable sample.</text>
 </svg>

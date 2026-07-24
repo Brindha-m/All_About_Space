@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 580" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="580" fill="#fafbfd"/>
+  <text x="490" y="40" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2937">Microlensing Model-Fitting Tools</text>
+
+  <g font-size="12.5" fill="#374151">
+    <!-- BAGLE -->
+    <rect x="30" y="70" width="440" height="130" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="50" y="98" font-size="15" font-weight="bold" fill="#4c1d95">BAGLE (Lu et al. 2026)</text>
+    <text x="50" y="124">- joint photometric + astrometric fitting</text>
+    <text x="50" y="146">- nested sampling to explore degenerate solutions</text>
+    <text x="50" y="168">- especially powerful for dark lenses (black holes)</text>
+
+    <!-- pyLIMA -->
+    <rect x="510" y="70" width="440" height="130" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="530" y="98" font-size="15" font-weight="bold" fill="#4c1d95">pyLIMA (Bachelet et al. 2017)</text>
+    <text x="530" y="124">- first fully open-source microlensing package</text>
+    <text x="530" y="146">- includes a simulation module</text>
+    <text x="530" y="168">- models single-lens events in the MSOS pipeline</text>
+
+    <!-- eesunhong -->
+    <rect x="30" y="230" width="440" height="130" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="50" y="258" font-size="15" font-weight="bold" fill="#4c1d95">eesunhong (Bennett &amp; Rhie 1996)</text>
+    <text x="50" y="284">- pioneering grid-search fitter (since 1995)</text>
+    <text x="50" y="306">- performs best for low-mass planets</text>
+    <text x="50" y="328">- long heritage of published planetary events</text>
+
+    <!-- RTModel -->
+    <rect x="510" y="230" width="440" height="130" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="530" y="258" font-size="15" font-weight="bold" fill="#4c1d95">RTModel (Bozza 2024)</text>
+    <text x="530" y="284">- fast, automated real-time modeling of alerts</text>
+    <text x="530" y="306">- strong for stellar binary and planetary lenses</text>
+    <text x="530" y="328">- basis for modeling binary events in MSOS</text>
+
+    <!-- MulensModel -->
+    <rect x="30" y="390" width="440" height="130" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="50" y="418" font-size="15" font-weight="bold" fill="#4c1d95">MulensModel (Poleski &amp; Yee 2019)</text>
+    <text x="50" y="444">- open-source single- and binary-lens modeling</text>
+    <text x="50" y="466">- balances multiple magnification methods</text>
+    <text x="50" y="488">- lets you choose your own fitting algorithm</text>
+
+    <!-- More -->
+    <rect x="510" y="390" width="440" height="130" rx="10" fill="#d1fae5" stroke="#047857" stroke-width="1.5"/>
+    <text x="530" y="418" font-size="15" font-weight="bold" fill="#065f46">Which one should I use?</text>
+    <text x="530" y="444">- different tools shine for different event types</text>
+    <text x="530" y="466">- many published events used several tools as checks</text>
+    <text x="530" y="488">- full list: rges-pit.org/tools</text>
+  </g>
+
+  <text x="490" y="556" text-anchor="middle" font-size="13" fill="#4b5563">All five are used to model real, published microlensing events - cross-checking tools guards against tool-specific bias.</text>
+</svg>

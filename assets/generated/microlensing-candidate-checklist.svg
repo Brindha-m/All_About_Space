@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="420" fill="#fafbfd"/>
+  <text x="450" y="42" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2937">How to Recognize a Microlensing Event</text>
+
+  <!-- Light curve panel -->
+  <g>
+    <line x1="70" y1="330" x2="430" y2="330" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="70" y1="330" x2="70" y2="100" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="70" y1="308" x2="430" y2="308" stroke="#d1d5db" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="76" y="92" font-size="12" fill="#6b7280">flux</text>
+    <text x="428" y="350" text-anchor="end" font-size="12" fill="#6b7280">time</text>
+    <text x="78" y="296" font-size="11" fill="#9ca3af">baseline</text>
+    <path d="M 80 308 L 175 306 C 205 303, 218 290, 233 240 C 246 195, 260 195, 273 240 C 288 290, 301 303, 331 306 L 420 308"
+          fill="none" stroke="#6d28d9" stroke-width="3" stroke-linecap="round"/>
+    <text x="253" y="170" text-anchor="middle" font-size="12" fill="#6d28d9" font-weight="bold">one smooth, symmetric peak</text>
+  </g>
+
+  <!-- Checklist -->
+  <g font-size="14" fill="#1f2937">
+    <text x="480" y="115" font-size="16" font-weight="bold" fill="#4c1d95">A candidate light curve is:</text>
+
+    <text x="480" y="152" font-weight="bold">1. Not flat</text>
+    <text x="480" y="170" font-size="12" fill="#4b5563">something clearly happened</text>
+
+    <text x="480" y="202" font-weight="bold">2. Non-periodic</text>
+    <text x="480" y="220" font-size="12" fill="#4b5563">the brightening never repeats</text>
+
+    <text x="480" y="252" font-weight="bold">3. Peaked</text>
+    <text x="480" y="270" font-size="12" fill="#4b5563">a single smooth rise and fall</text>
+
+    <text x="480" y="302" font-weight="bold">4. Achromatic</text>
+    <text x="480" y="320" font-size="12" fill="#4b5563">identical shape in every filter</text>
+  </g>
+
+  <rect x="60" y="368" width="780" height="36" rx="8" fill="#fee2e2"/>
+  <text x="450" y="391" text-anchor="middle" font-size="13" fill="#7f1d1d">Impostors to reject: supernovae and variable stars change color, repeat, or rise and fade asymmetrically.</text>
+</svg>

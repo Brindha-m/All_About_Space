@@ -1,27 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="55" y="200" width="275" height="150" rx="22"/>
-    <rect x="460" y="200" width="275" height="150" rx="22"/>
-    <rect x="865" y="200" width="275" height="150" rx="22"/>
-    <path d="M330 275h130M432 253l28 22-28 22"/>
-    <path d="M735 275h130M837 253l28 22-28 22"/>
-  </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h360" stroke="#77c943"/>
-    <path d="M95 390h195" stroke="#3d65d8"/>
-    <path d="M500 390h195" stroke="#f0a020"/>
-    <path d="M905 390h195" stroke="#77c943"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive" text-anchor="middle">
-    <text x="55" y="84" font-size="44" font-weight="700" text-anchor="start">A yield is a prediction</text>
-    <text x="192" y="258" font-size="31" font-weight="700">what Roman</text>
-    <text x="192" y="302" font-size="31" font-weight="700">can detect</text>
-    <text x="597" y="258" font-size="31" font-weight="700">planets nature</text>
-    <text x="597" y="302" font-size="31" font-weight="700">provides</text>
-    <text x="1002" y="258" font-size="31" font-weight="700">expected</text>
-    <text x="1002" y="302" font-size="31" font-weight="700">discoveries</text>
-    <text x="600" y="505" font-size="32">Change the assumptions, and the predicted number changes.</text>
-    <text x="600" y="565" font-size="30">Yield is a forecast - not a promise.</text>
-  </g>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="34" font-weight="700" fill="#1f2937">A yield is a prediction</text>
+  <rect x="50" y="82" width="340" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Box 1 -->
+  <rect x="50" y="140" width="280" height="230" rx="14" fill="#dbeafe" stroke="#1f2937" stroke-width="3"/>
+  <rect x="90" y="180" width="120" height="45" rx="8" fill="#bfdbfe" stroke="#1f2937" stroke-width="3"/>
+  <rect x="210" y="192" width="40" height="22" fill="#93c5fd" stroke="#1f2937" stroke-width="2"/>
+  <rect x="90" y="250" width="180" height="70" rx="8" fill="#0f172a" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="120" cy="275" r="3" fill="#fde68a"/><circle cx="160" cy="290" r="2" fill="#fde68a"/>
+  <circle cx="200" cy="270" r="3" fill="#fde68a"/><circle cx="240" cy="285" r="2" fill="#fde68a"/>
+  <text x="190" y="420" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">what Roman can detect</text>
+  <text x="190" y="448" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="15" fill="#6b7280">survey design</text>
+
+  <text x="360" y="270" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="40" font-weight="700" fill="#1f2937">×</text>
+
+  <!-- Box 2 -->
+  <rect x="400" y="140" width="280" height="230" rx="14" fill="#fef9c3" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="480" cy="240" r="22" fill="#fef08a" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="530" cy="210" r="12" fill="#60a5fa" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="560" cy="270" r="16" fill="#f97316" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="600" cy="230" r="10" fill="#34d399" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="510" cy="300" r="8" fill="#a78bfa" stroke="#1f2937" stroke-width="2"/>
+  <text x="540" y="420" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">planets nature provides</text>
+  <text x="540" y="448" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="15" fill="#6b7280">true population</text>
+
+  <text x="710" y="270" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="40" font-weight="700" fill="#1f2937">=</text>
+
+  <!-- Box 3 -->
+  <rect x="750" y="140" width="380" height="230" rx="14" fill="#d1fae5" stroke="#1f2937" stroke-width="3"/>
+  <line x1="790" y1="320" x2="1090" y2="320" stroke="#1f2937" stroke-width="3"/>
+  <rect x="820" y="250" width="40" height="70" fill="#3d65d8" stroke="#1f2937" stroke-width="2"/>
+  <rect x="880" y="200" width="40" height="120" fill="#3d65d8" stroke="#1f2937" stroke-width="2"/>
+  <rect x="940" y="170" width="40" height="150" fill="#3d65d8" stroke="#1f2937" stroke-width="2"/>
+  <rect x="1000" y="220" width="40" height="100" fill="#3d65d8" stroke="#1f2937" stroke-width="2"/>
+  <rect x="1060" y="240" width="40" height="80" fill="#3d65d8" stroke="#1f2937" stroke-width="2"/>
+  <text x="940" y="420" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">expected discoveries</text>
+  <text x="940" y="448" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="15" fill="#6b7280">forecast number</text>
+
+  <text x="600" y="540" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24" fill="#1f2937">Change the assumptions, and the predicted number changes.</text>
+  <text x="600" y="590" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" font-weight="700" fill="#1f2937">Yield is a forecast — not a promise.</text>
+  <text x="600" y="640" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" fill="#4b5563">Always ask: which Galaxy model and planet model were used?</text>
 </svg>

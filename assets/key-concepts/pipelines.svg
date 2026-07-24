@@ -1,27 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="55" y="220" width="155" height="125" rx="16"/>
-    <path d="M83 250h24v24H83zM125 250h24v24h-24zM167 250h24v24h-24zM83 292h24v24H83zM125 292h24v24h-24zM167 292h24v24h-24z"/>
-    <path d="M210 282h90M274 260l28 22-28 22"/>
-    <path d="M330 300c36 0 48-65 83-65s46 130 82 130 46-65 84-65"/>
-    <path d="M580 282h90M644 260l28 22-28 22"/>
-    <circle cx="760" cy="282" r="58"/>
-    <path d="M728 282l25 25 43-54"/>
-    <path d="M818 282h90M882 260l28 22-28 22"/>
-    <path d="M965 225h155M965 270h115M965 315h135"/>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="32" font-weight="700" fill="#1f2937">A pipeline turns pictures into answers</text>
+  <rect x="50" y="82" width="460" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Pixels -->
+  <rect x="40" y="150" width="180" height="180" rx="12" fill="#0f172a" stroke="#1f2937" stroke-width="3"/>
+  <g stroke="#64748b" stroke-width="2">
+    <line x1="70" y1="185" x2="190" y2="185"/><line x1="70" y1="220" x2="190" y2="220"/>
+    <line x1="70" y1="255" x2="190" y2="255"/><line x1="70" y1="290" x2="190" y2="290"/>
+    <line x1="70" y1="185" x2="70" y2="290"/><line x1="100" y1="185" x2="100" y2="290"/>
+    <line x1="130" y1="185" x2="130" y2="290"/><line x1="160" y1="185" x2="160" y2="290"/>
+    <line x1="190" y1="185" x2="190" y2="290"/>
   </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h400" stroke="#77c943"/>
-    <path d="M330 420h250" stroke="#f0a020"/>
-    <path d="M965 420h170" stroke="#3d65d8"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive">
-    <text x="55" y="86" font-size="52" font-weight="700">A pipeline turns pictures into answers</text>
-    <text x="65" y="400" font-size="32">pixels</text>
-    <text x="335" y="460" font-size="32" font-weight="700">brightness over time</text>
-    <text x="700" y="400" font-size="32">planet signal?</text>
-    <text x="965" y="460" font-size="32" font-weight="700">planet list</text>
-    <text x="185" y="555" font-size="32">Each step must be tested, or mistakes move forward.</text>
-  </g>
+  <circle cx="115" cy="235" r="8" fill="#fde68a"/><circle cx="155" cy="265" r="5" fill="#fde68a"/>
+  <text x="130" y="380" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">1. pixels</text>
+
+  <path d="M230 240h40" stroke="#1f2937" stroke-width="3"/><path d="M255 228l15 12-15 12" fill="none" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- Light curve -->
+  <rect x="280" y="150" width="200" height="180" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <line x1="305" y1="290" x2="455" y2="290" stroke="#d1d5db" stroke-width="2"/>
+  <path d="M315 280 C350 280 365 275 385 230 C400 195 415 195 430 230 C450 275 460 280 455 280" fill="none" stroke="#3d65d8" stroke-width="4"/>
+  <text x="380" y="380" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">2. light curve</text>
+
+  <path d="M490 240h40" stroke="#1f2937" stroke-width="3"/><path d="M515 228l15 12-15 12" fill="none" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- Detect -->
+  <rect x="540" y="150" width="200" height="180" rx="12" fill="#fef9c3" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="640" cy="230" r="40" fill="none" stroke="#1f2937" stroke-width="4"/>
+  <text x="640" y="245" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="40" font-weight="700" fill="#1f2937">?</text>
+  <text x="640" y="380" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">3. planet?</text>
+
+  <path d="M750 240h40" stroke="#1f2937" stroke-width="3"/><path d="M775 228l15 12-15 12" fill="none" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- Catalog -->
+  <rect x="800" y="150" width="340" height="180" rx="12" fill="#d1fae5" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="835" cy="195" r="6" fill="#047857"/><line x1="855" y1="195" x2="1100" y2="195" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="835" cy="240" r="6" fill="#047857"/><line x1="855" y1="240" x2="1070" y2="240" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="835" cy="285" r="6" fill="#047857"/><line x1="855" y1="285" x2="1120" y2="285" stroke="#1f2937" stroke-width="3"/>
+  <text x="970" y="380" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" font-weight="700" fill="#1f2937">4. planet catalog</text>
+
+  <text x="600" y="500" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="24" fill="#1f2937">Each step must be tested, or mistakes move forward.</text>
+  <text x="600" y="555" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Fixed steps make results reproducible and selection effects knowable.</text>
+  <text x="600" y="610" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#4b5563">Without that, occurrence rates cannot be trusted.</text>
 </svg>

@@ -1,31 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#fffefb"/>
-  <g fill="none" stroke="#292727" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="70" y="220" width="210" height="130" rx="20"/>
-    <rect x="365" y="220" width="210" height="130" rx="20"/>
-    <rect x="660" y="220" width="210" height="130" rx="20"/>
-    <rect x="955" y="220" width="180" height="130" rx="20"/>
-    <path d="M280 285h85M339 263l28 22-28 22M575 285h85M634 263l28 22-28 22M870 285h85M929 263l28 22-28 22"/>
-    <path d="M1045 350c0 135-155 160-420 160H260c-105 0-135-45-135-110"/>
-    <path d="M103 420l22-25 25 22"/>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+  <text x="50" y="70" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="34" font-weight="700" fill="#1f2937">Science improves in a loop</text>
+  <rect x="50" y="82" width="380" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Ask -->
+  <rect x="40" y="140" width="220" height="180" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <rect x="75" y="175" width="150" height="100" rx="6" fill="#fef9c3" stroke="#1f2937" stroke-width="3"/>
+  <line x1="95" y1="205" x2="205" y2="205" stroke="#1f2937" stroke-width="2"/>
+  <line x1="95" y1="230" x2="180" y2="230" stroke="#1f2937" stroke-width="2"/>
+  <text x="150" y="265" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="28" font-weight="700" fill="#3d65d8">?</text>
+  <text x="150" y="360" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">1. ask</text>
+
+  <path d="M270 230h50" stroke="#1f2937" stroke-width="3"/><path d="M300 218l20 12-20 12" fill="none" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- Build -->
+  <rect x="330" y="140" width="220" height="180" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="390" cy="230" r="12" fill="#fde68a" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="450" cy="230" r="16" fill="#1f2937"/>
+  <circle cx="510" cy="230" r="9" fill="#bfdbfe" stroke="#1f2937" stroke-width="2"/>
+  <path d="M405 220 C425 190 440 190 445 220" fill="none" stroke="#3d65d8" stroke-width="3"/>
+  <text x="440" y="360" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">2. build</text>
+
+  <path d="M560 230h50" stroke="#1f2937" stroke-width="3"/><path d="M590 218l20 12-20 12" fill="none" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- Test -->
+  <rect x="620" y="140" width="220" height="180" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <line x1="645" y1="280" x2="815" y2="280" stroke="#d1d5db" stroke-width="2"/>
+  <path d="M655 270 C690 270 705 265 725 220 C740 185 755 185 770 220 C790 265 805 270 815 270" fill="none" stroke="#3d65d8" stroke-width="3"/>
+  <circle cx="670" cy="265" r="5" fill="#f0a020"/><circle cx="730" cy="220" r="5" fill="#f0a020"/><circle cx="790" cy="265" r="5" fill="#f0a020"/>
+  <text x="730" y="360" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">3. test</text>
+
+  <path d="M850 230h50" stroke="#1f2937" stroke-width="3"/><path d="M880 218l20 12-20 12" fill="none" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- Learn -->
+  <rect x="910" y="140" width="230" height="180" rx="12" fill="#d1fae5" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="1025" cy="220" r="35" fill="#fef9c7" stroke="#1f2937" stroke-width="3"/>
+  <g stroke="#f0a020" stroke-width="3" stroke-linecap="round">
+    <line x1="1025" y1="170" x2="1025" y2="155"/><line x1="1025" y1="285" x2="1025" y2="270"/>
+    <line x1="975" y1="220" x2="960" y2="220"/><line x1="1090" y1="220" x2="1075" y2="220"/>
   </g>
-  <g fill="none" stroke-width="10" stroke-linecap="round">
-    <path d="M55 102h460" stroke="#77c943"/>
-    <path d="M95 390h160" stroke="#3d65d8"/>
-    <path d="M390 390h160" stroke="#f0a020"/>
-    <path d="M685 390h160" stroke="#77c943"/>
-    <path d="M975 390h140" stroke="#3d65d8"/>
-  </g>
-  <g fill="#292727" font-family="'Segoe Print','Comic Sans MS',cursive" text-anchor="middle">
-    <text x="55" y="84" font-size="44" font-weight="700" text-anchor="start">Science improves in a loop</text>
-    <text x="175" y="275" font-size="31" font-weight="700">ask</text>
-    <text x="175" y="315" font-size="31">a question</text>
-    <text x="470" y="275" font-size="31" font-weight="700">build</text>
-    <text x="470" y="315" font-size="31">a model</text>
-    <text x="765" y="275" font-size="31" font-weight="700">test</text>
-    <text x="765" y="315" font-size="31">with data</text>
-    <text x="1045" y="275" font-size="31" font-weight="700">learn</text>
-    <text x="1045" y="315" font-size="31">and repeat</text>
-    <text x="600" y="585" font-size="31">A failed prediction is useful: it shows what to improve.</text>
-  </g>
+  <path d="M1010 245l12 12 25-30" fill="none" stroke="#047857" stroke-width="4" stroke-linecap="round"/>
+  <text x="1025" y="360" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" font-weight="700" fill="#1f2937">4. learn</text>
+
+  <!-- Loop -->
+  <path d="M1025 340 C1025 440 850 480 600 480 C350 480 150 440 150 360" fill="none" stroke="#f0a020" stroke-width="4"/>
+  <path d="M140 375l10-20 18 10" fill="none" stroke="#f0a020" stroke-width="4"/>
+  <text x="600" y="520" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="20" fill="#b45309">repeat — a failed prediction shows what to improve</text>
+
+  <text x="600" y="590" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="22" fill="#1f2937">The Hands-On II notebook is one full lap around this loop.</text>
+  <text x="600" y="640" text-anchor="middle" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="18" fill="#4b5563">Concepts, data, models, and interpretation feed each other.</text>
 </svg>

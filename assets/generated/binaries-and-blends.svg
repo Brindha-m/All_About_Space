@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 460" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arrow5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6d28d9"/>
+    </marker>
+    <radialGradient id="blend" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="60%" stop-color="#fcd34d" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fef3c7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="940" height="460" fill="#fafbfd"/>
+  <text x="470" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">Complications: Binaries and Blends</text>
+
+  <!-- Reality panel -->
+  <rect x="50" y="70" width="340" height="240" rx="12" fill="#0f172a"/>
+  <text x="220" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#e2e8f0">Reality: two (or more) stars</text>
+  <circle cx="180" cy="190" r="14" fill="#fbbf24"/>
+  <text x="180" y="230" text-anchor="middle" font-size="12" fill="#fde68a">Star A (bright)</text>
+  <circle cx="265" cy="160" r="7" fill="#fca5a5"/>
+  <text x="265" y="138" text-anchor="middle" font-size="12" fill="#fecaca">Star B (faint)</text>
+  <text x="220" y="290" text-anchor="middle" font-size="11.5" fill="#94a3b8">companion or chance neighbor within 0.1 arcsec</text>
+
+  <!-- Arrow -->
+  <line x1="400" y1="190" x2="490" y2="190" stroke="#6d28d9" stroke-width="3" marker-end="url(#arrow5)"/>
+  <text x="445" y="165" text-anchor="middle" font-size="12" fill="#6d28d9">unresolved</text>
+
+  <!-- Measured panel -->
+  <rect x="500" y="70" width="340" height="240" rx="12" fill="#0f172a"/>
+  <text x="670" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#e2e8f0">What the telescope measures</text>
+  <circle cx="670" cy="180" r="55" fill="url(#blend)"/>
+  <circle cx="670" cy="180" r="12" fill="#fbbf24"/>
+  <text x="670" y="262" text-anchor="middle" font-size="12" fill="#fde68a">one catalog "star" with the combined light</text>
+  <text x="670" y="290" text-anchor="middle" font-size="11.5" fill="#94a3b8">0.1 arcsec = 800 AU at 8 kpc: most binaries stay hidden</text>
+
+  <!-- Consequences -->
+  <g font-size="13.5" fill="#374151">
+    <rect x="50" y="335" width="840" height="100" rx="10" fill="#fee2e2"/>
+    <text x="70" y="363" font-weight="bold" fill="#7f1d1d">Why it matters:</text>
+    <text x="70" y="388">- extra light biases the inferred radius, age, and planet properties (about 4% of Kepler targets were blends)</text>
+    <text x="70" y="412">- in microlensing, the blend flux mixes lens + source + neighbors: that is the deblending step in the Hands-On II notebook</text>
+  </g>
+</svg>
