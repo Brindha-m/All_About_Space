@@ -96,7 +96,7 @@ Noise, eclipsing binaries, and blended neighbors can all copy a transit signal. 
 
 ---
 
-## Level 6 - Galactic context and dust (Intermediate)
+## Level 6 - Galactic context and dust
 
 ### One event needs Galactic context
 
