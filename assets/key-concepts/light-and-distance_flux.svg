@@ -1,0 +1,98 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#fffefb"/>
+
+  <!-- Title -->
+  <text x="50" y="58" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#1f2937">Light spreads out as it travels</text>
+  <rect x="50" y="70" width="400" height="8" rx="4" fill="#77c943"/>
+
+  <!-- Star / luminosity source -->
+  <circle cx="120" cy="300" r="38" fill="#fde68a" stroke="#1f2937" stroke-width="4"/>
+  <g stroke="#1f2937" stroke-width="3.5" stroke-linecap="round">
+    <line x1="120" y1="245" x2="120" y2="228"/>
+    <line x1="120" y1="355" x2="120" y2="372"/>
+    <line x1="65" y1="300" x2="48" y2="300"/>
+    <line x1="175" y1="300" x2="192" y2="300"/>
+    <line x1="82" y1="262" x2="70" y2="250"/>
+    <line x1="158" y1="338" x2="170" y2="350"/>
+    <line x1="82" y1="338" x2="70" y2="350"/>
+    <line x1="158" y1="262" x2="170" y2="250"/>
+  </g>
+  <text x="120" y="410" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">star</text>
+  <text x="120" y="435" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#b45309">Luminosity L</text>
+  <text x="120" y="456" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#6b7280">(total power)</text>
+
+  <!-- Expanding cone edges -->
+  <g stroke="#9ca3af" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <line x1="160" y1="275" x2="1080" y2="140"/>
+    <line x1="160" y1="325" x2="1080" y2="460"/>
+  </g>
+  <!-- Interior rays -->
+  <g stroke="#3d65d8" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+    <line x1="160" y1="285" x2="1080" y2="200"/>
+    <line x1="160" y1="295" x2="1080" y2="260"/>
+    <line x1="160" y1="305" x2="1080" y2="340"/>
+    <line x1="160" y1="315" x2="1080" y2="400"/>
+  </g>
+
+  <!-- Screen at distance d: 1x1 grid -->
+  <g>
+    <rect x="340" y="255" width="70" height="90" fill="#fef3c7" stroke="#f0a020" stroke-width="3.5"/>
+    <!-- one cell filled with light -->
+    <rect x="345" y="260" width="60" height="80" fill="#fde68a" stroke="#f0a020" stroke-width="1.5"/>
+    <text x="375" y="310" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#92400e">1</text>
+  </g>
+  <text x="375" y="380" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#b45309">distance d</text>
+  <text x="375" y="402" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">1×1 patch</text>
+  <text x="375" y="422" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">flux F</text>
+
+  <!-- Screen at distance 2d: 2x2 grid -->
+  <g>
+    <rect x="560" y="210" width="140" height="180" fill="#fff7ed" stroke="#f0a020" stroke-width="3.5"/>
+    <line x1="630" y1="210" x2="630" y2="390" stroke="#f0a020" stroke-width="2"/>
+    <line x1="560" y1="300" x2="700" y2="300" stroke="#f0a020" stroke-width="2"/>
+    <rect x="565" y="215" width="60" height="80" fill="#fde68a" stroke="#d97706" stroke-width="1"/>
+    <rect x="635" y="215" width="60" height="80" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+    <rect x="565" y="305" width="60" height="80" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+    <rect x="635" y="305" width="60" height="80" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  </g>
+  <text x="630" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#b45309">distance 2d</text>
+  <text x="630" y="452" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">2×2 = 4 patches</text>
+  <text x="630" y="472" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">flux F/4</text>
+
+  <!-- Screen at distance 3d: 3x3 grid -->
+  <g>
+    <rect x="820" y="165" width="210" height="270" fill="#eff6ff" stroke="#3d65d8" stroke-width="3.5"/>
+    <!-- grid lines -->
+    <line x1="890" y1="165" x2="890" y2="435" stroke="#3d65d8" stroke-width="2"/>
+    <line x1="960" y1="165" x2="960" y2="435" stroke="#3d65d8" stroke-width="2"/>
+    <line x1="820" y1="255" x2="1030" y2="255" stroke="#3d65d8" stroke-width="2"/>
+    <line x1="820" y1="345" x2="1030" y2="345" stroke="#3d65d8" stroke-width="2"/>
+    <!-- highlight one cell same size as original -->
+    <rect x="825" y="170" width="60" height="80" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="855" y="220" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1e3a8a">1</text>
+  </g>
+  <text x="925" y="470" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">distance 3d</text>
+  <text x="925" y="492" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">3×3 = 9 patches</text>
+  <text x="925" y="512" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">flux F/9</text>
+
+  <!-- Distance markers under the screens -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round">
+    <line x1="120" y1="545" x2="375" y2="545"/>
+    <line x1="120" y1="537" x2="120" y2="553"/>
+    <line x1="375" y1="537" x2="375" y2="553"/>
+    <line x1="120" y1="575" x2="630" y2="575"/>
+    <line x1="120" y1="567" x2="120" y2="583"/>
+    <line x1="630" y1="567" x2="630" y2="583"/>
+    <line x1="120" y1="605" x2="925" y2="605"/>
+    <line x1="120" y1="597" x2="120" y2="613"/>
+    <line x1="925" y1="597" x2="925" y2="613"/>
+  </g>
+  <text x="248" y="540" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">d</text>
+  <text x="375" y="570" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">2d</text>
+  <text x="520" y="600" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">3d</text>
+
+  <!-- Bottom formula box -->
+  <rect x="50" y="630" width="1100" height="70" rx="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="2"/>
+  <text x="600" y="660" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Flux  F = L / (4π d²)   →   twice as far means four times fainter</text>
+  <text x="600" y="686" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">Same total light, larger area → lower brightness. That links magnitudes, distance, and extinction.</text>
+</svg>
