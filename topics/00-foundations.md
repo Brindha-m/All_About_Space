@@ -24,11 +24,11 @@
 ## 2. Essential units
 
 - **AU:** average Earth–Sun distance.
-- **pc (parsec):** distance at which 1 AU subtends 1 arcsecond; \(1\,\mathrm{pc}\approx3.26\) light-years.
+- **pc (parsec):** distance at which 1 AU subtends 1 arcsecond; \(1\,\mathrm{pc} \approx 3.26\) light-years.
 - **kpc:** 1,000 parsecs, convenient for Galactic distances.
 - **arcsecond:** \(1/3600\) degree.
 - **milliarcsecond (mas):** \(10^{-3}\) arcseconds.
-- Planet quantities are often reported in Earth or Jupiter units: \(M_\oplus, R_\oplus, M_J, R_J\).
+- Planet quantities are often reported in Earth or Jupiter units: \(M_\oplus\), \(R_\oplus\), \(M_J\), \(R_J\).
 
 ## 3. Light, spectra, and detectors
 
