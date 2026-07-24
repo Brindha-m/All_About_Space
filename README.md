@@ -9,6 +9,11 @@ Light leaves a star and spreads over a growing sphere. Move twice as far away an
 
 ![Light becomes fainter with distance](assets/key-concepts/light-and-distance.svg)
 
+
+Light leaves a star with total power called luminosity (L). As it travels, that same light spreads over a larger and larger sphere. The classic picture uses equal-size patches at distances d, 2d, and 3d: the light that fills 1 patch at d fills 4 patches at 2d and 9 at 3d. Apparent brightness (flux) therefore falls as 1/d² — which is why magnitudes, distance moduli, and extinction corrections are all linked.
+
+![Light becomes fainter with distance](assets/key-concepts/light-and-distance_flux.svg)
+
 ---
 
 ## Level 1 - Roman and the GBTDS
