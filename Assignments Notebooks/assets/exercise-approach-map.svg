@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1280" viewBox="0 0 1200 1280">
+  <rect width="1200" height="1280" fill="#fffefb"/>
+  <text x="50" y="42" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#1f2937">How to approach every exercise type</text>
+  <rect x="50" y="52" width="460" height="7" rx="3" fill="#77c943"/>
+
+  <!-- Shared loop -->
+  <rect x="40" y="75" width="1120" height="88" rx="12" fill="#f3f4f6" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="600" y="100" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2937">Shared loop for every notebook</text>
+
+  <rect x="70" y="115" width="95" height="32" rx="7" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <text x="117" y="136" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8">LOOK</text>
+  <path d="M170 131 H190" stroke="#1f2937" stroke-width="2"/>
+  <path d="M182 124 l10 7 -10 7" fill="none" stroke="#1f2937" stroke-width="2"/>
+
+  <rect x="195" y="115" width="100" height="32" rx="7" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <text x="245" y="136" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8">MODEL</text>
+  <path d="M300 131 H320" stroke="#1f2937" stroke-width="2"/>
+  <path d="M312 124 l10 7 -10 7" fill="none" stroke="#1f2937" stroke-width="2"/>
+
+  <rect x="325" y="115" width="80" height="32" rx="7" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <text x="365" y="136" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8">FIT</text>
+  <path d="M410 131 H430" stroke="#1f2937" stroke-width="2"/>
+  <path d="M422 124 l10 7 -10 7" fill="none" stroke="#1f2937" stroke-width="2"/>
+
+  <rect x="435" y="115" width="120" height="32" rx="7" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <text x="495" y="136" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#92400e">RESIDUALS</text>
+  <path d="M560 131 H580" stroke="#1f2937" stroke-width="2"/>
+  <path d="M572 124 l10 7 -10 7" fill="none" stroke="#1f2937" stroke-width="2"/>
+
+  <rect x="585" y="115" width="175" height="32" rx="7" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <text x="672" y="136" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#9d174d">ADD COMPLEXITY?</text>
+  <path d="M765 131 H785" stroke="#1f2937" stroke-width="2"/>
+  <path d="M777 124 l10 7 -10 7" fill="none" stroke="#1f2937" stroke-width="2"/>
+
+  <rect x="790" y="115" width="130" height="32" rx="7" fill="#d1fae5" stroke="#065f46" stroke-width="2"/>
+  <text x="855" y="136" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#065f46">INTERPRET</text>
+
+  <!-- ========== SINGLE LENS ========== -->
+  <rect x="40" y="185" width="270" height="740" rx="14" fill="#eff6ff" stroke="#1f2937" stroke-width="3"/>
+  <text x="175" y="215" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">Single Lens</text>
+
+  <!-- Label ABOVE the plot box so it never overlaps the curve -->
+  <text x="175" y="240" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">PSPL light curve</text>
+  <rect x="60" y="250" width="230" height="95" rx="10" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <line x1="80" y1="325" x2="270" y2="325" stroke="#d1d5db" stroke-width="1.5"/>
+  <!-- Curve kept low; peak around y=275 so clear of top edge -->
+  <path d="M85 320 C120 318 145 310 165 285 C180 265 190 265 205 285 C225 310 245 318 265 320" fill="none" stroke="#1d4ed8" stroke-width="3"/>
+  <circle cx="185" cy="272" r="4" fill="#f0a020"/>
+  <!-- t0 label to the RIGHT of peak, not on the curve title -->
+  <text x="210" y="268" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#b45309">t0</text>
+
+  <text x="60" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">1. Plot the data</text>
+  <text x="60" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">2. Guess <tspan font-weight="700" fill="#1d4ed8">t0</tspan> from peak</text>
+  <text x="60" y="425" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">3. Guess <tspan font-weight="700" fill="#1d4ed8">u0</tspan> from <tspan font-weight="700">A_max</tspan></text>
+  <text x="60" y="450" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">4. Guess <tspan font-weight="700" fill="#1d4ed8">t_E</tspan> from width</text>
+  <text x="60" y="475" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">5. Build <tspan font-weight="700" fill="#1d4ed8">mm.Model PSPL</tspan></text>
+  <text x="60" y="500" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">6. <tspan font-weight="700" fill="#1d4ed8">chi2</tspan> minimize first</text>
+  <text x="60" y="525" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">7. <tspan font-weight="700" fill="#1d4ed8">MCMC</tspan> for errors</text>
+  <text x="60" y="550" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">8. Check <tspan font-weight="700" fill="#92400e">blend degeneracy</tspan></text>
+  <text x="60" y="575" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">9. Try <tspan font-weight="700" fill="#9d174d">FSPL</tspan> if peak flat</text>
+  <text x="60" y="600" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">10. Try <tspan font-weight="700" fill="#9d174d">parallax</tspan> if wings</text>
+  <text x="60" y="620" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">    are asymmetric</text>
+
+  <rect x="60" y="645" width="230" height="60" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="175" y="670" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">STOP RULE</text>
+  <text x="175" y="692" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f2937">residuals = noise-like</text>
+
+  <text x="60" y="740" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1d4ed8">Key objects</text>
+  <text x="60" y="765" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f2937">Model, MulensData, Event</text>
+  <text x="60" y="785" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1f2937">+ emcee / corner</text>
+  <text x="60" y="825" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#065f46">Notebook: SingleLens</text>
+  <text x="60" y="860" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">Start simple. Escalate only</text>
+  <text x="60" y="880" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">when residuals demand it.</text>
+
+  <!-- ========== BINARY LENS ========== -->
+  <rect x="325" y="185" width="270" height="740" rx="14" fill="#fef3c7" stroke="#1f2937" stroke-width="3"/>
+  <text x="460" y="215" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#92400e">Binary Lens</text>
+
+  <text x="460" y="240" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">caustic (diamond) + trajectory</text>
+  <rect x="345" y="250" width="230" height="95" rx="10" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <!-- two lens masses -->
+  <circle cx="400" cy="305" r="6" fill="#1f2937"/>
+  <circle cx="500" cy="305" r="5" fill="#60a5fa" stroke="#1f2937" stroke-width="1.5"/>
+  <!-- clear diamond = caustic -->
+  <polygon points="450,272 478,305 450,338 422,305" fill="none" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="450" y="265" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">caustic</text>
+  <!-- source trajectory crossing the diamond -->
+  <line x1="360" y1="330" x2="555" y2="275" stroke="#f0a020" stroke-width="2.5"/>
+  <circle cx="450" cy="305" r="3.5" fill="#f0a020"/>
+  <text x="530" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#b45309">alpha</text>
+
+  <text x="345" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">1. Explore caustics (<tspan font-weight="700" fill="#92400e">s, q</tspan>)</text>
+  <text x="345" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">2. Draw trajectory (<tspan font-weight="700" fill="#92400e">alpha</tspan>)</text>
+  <text x="345" y="425" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">3. Note when <tspan font-weight="700" fill="#92400e">rho</tspan> matters</text>
+  <text x="345" y="450" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">4. Fit <tspan font-weight="700" fill="#1d4ed8">PSPL</tspan> to host</text>
+  <text x="345" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#374151">   (mask the anomaly)</text>
+  <text x="345" y="495" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">5. Estimate <tspan font-weight="700" fill="#92400e">s, q, alpha, rho</tspan></text>
+  <text x="345" y="520" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">6. Try random starts</text>
+  <text x="345" y="545" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">7. Run a <tspan font-weight="700" fill="#92400e">grid search</tspan></text>
+  <text x="345" y="570" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">8. <tspan font-weight="700" fill="#92400e">MCMC</tspan> around best</text>
+  <text x="345" y="595" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">9. Compare <tspan font-weight="700" fill="#9d174d">close/wide</tspan></text>
+  <text x="345" y="620" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">10. Report both if tied</text>
+
+  <rect x="345" y="645" width="230" height="60" rx="8" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+  <text x="460" y="670" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#78350f">DO NOT</text>
+  <text x="460" y="692" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f2937">jump to orbital motion</text>
+
+  <text x="345" y="740" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#92400e">Key params</text>
+  <text x="345" y="765" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f2937">s, q, alpha, rho (+ PSPL)</text>
+  <text x="345" y="785" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1f2937">close / resonant / wide</text>
+  <text x="345" y="825" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#065f46">Notebook: Binary_Lens</text>
+  <text x="345" y="860" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">Host first, then anomaly.</text>
+  <text x="345" y="880" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">Always test close vs wide.</text>
+
+  <!-- ========== TRANSIT CONTEXT ========== -->
+  <rect x="610" y="185" width="270" height="740" rx="14" fill="#fce7f3" stroke="#1f2937" stroke-width="3"/>
+  <text x="745" y="215" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#9d174d">Transit Context</text>
+
+  <text x="745" y="240" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">transit dip</text>
+  <rect x="630" y="250" width="230" height="95" rx="10" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="665" cy="300" r="18" fill="#fef08a" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="685" cy="300" r="7" fill="#1f2937"/>
+  <line x1="715" y1="325" x2="840" y2="325" stroke="#d1d5db" stroke-width="1.5"/>
+  <path d="M720 312 H745 C753 312 757 335 765 335 H790 C798 335 802 312 810 312 H835" fill="none" stroke="#9d174d" stroke-width="3"/>
+
+  <text x="630" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">1. Pick your <tspan font-weight="700" fill="#9d174d">event ID</tspan></text>
+  <text x="630" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">2. Read <tspan font-weight="700">event + stars</tspan></text>
+  <text x="630" y="425" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">3. Plot observed <tspan font-weight="700" fill="#9d174d">CMD</tspan></text>
+  <text x="630" y="450" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">4. Mark <tspan font-weight="700">host + source</tspan></text>
+  <text x="630" y="475" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">5. From light curve:</text>
+  <text x="630" y="500" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">   <tspan font-weight="700" fill="#9d174d">depth -&gt; Rp/Rstar</tspan></text>
+  <text x="630" y="525" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">   <tspan font-weight="700" fill="#9d174d">period -&gt; orbit</tspan></text>
+  <text x="630" y="550" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">6. Need <tspan font-weight="700" fill="#9d174d">Rstar</tspan> to get Rp</text>
+  <text x="630" y="575" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">7. That forces</text>
+  <text x="630" y="600" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#065f46">   Galactic host work</text>
+
+  <rect x="630" y="630" width="230" height="60" rx="8" fill="#fbcfe8" stroke="#9d174d" stroke-width="2"/>
+  <text x="745" y="655" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#831843">KEY IDEA</text>
+  <text x="745" y="677" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f2937">ratios need a host size</text>
+
+  <text x="630" y="725" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#9d174d">Transit context =</text>
+  <text x="630" y="748" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1f2937">this one system</text>
+  <text x="630" y="790" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#065f46">Notebook: Transit_Context</text>
+  <text x="630" y="830" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">Bridge into Galactic</text>
+  <text x="630" y="850" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">context for Rstar / mass.</text>
+
+  <!-- ========== GALACTIC CONTEXT ========== -->
+  <rect x="895" y="185" width="265" height="740" rx="14" fill="#ecfdf5" stroke="#1f2937" stroke-width="3"/>
+  <text x="1027" y="215" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#065f46">Galactic Context</text>
+
+  <text x="1027" y="240" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">disk / bulge + CMD</text>
+  <rect x="915" y="250" width="225" height="95" rx="10" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <ellipse cx="955" cy="305" rx="26" ry="11" fill="none" stroke="#92400e" stroke-width="2"/>
+  <ellipse cx="955" cy="305" rx="11" ry="18" fill="#fde68a" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="955" cy="305" r="4" fill="#1f2937"/>
+  <line x1="995" y1="330" x2="1120" y2="330" stroke="#d1d5db" stroke-width="1.5"/>
+  <line x1="1000" y1="275" x2="1000" y2="330" stroke="#d1d5db" stroke-width="1.5"/>
+  <circle cx="1025" cy="295" r="2.5" fill="#1d4ed8"/>
+  <circle cx="1040" cy="285" r="2.5" fill="#1d4ed8"/>
+  <circle cx="1055" cy="305" r="2.5" fill="#92400e"/>
+  <circle cx="1075" cy="280" r="3.5" fill="#9d174d"/>
+  <text x="1095" y="278" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#9d174d">you</text>
+
+  <text x="915" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">1. Simulate <tspan font-weight="700" fill="#065f46">disk+bulge</tspan></text>
+  <text x="915" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">2. Apply <tspan font-weight="700" fill="#065f46">dust / filters</tspan></text>
+  <text x="915" y="425" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">3. Build absolute <tspan font-weight="700" fill="#065f46">CMD</tspan></text>
+  <text x="915" y="450" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">4. Overlay your target</text>
+  <text x="915" y="475" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">5. Decide population:</text>
+  <text x="915" y="495" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#065f46">   disk vs bulge?</text>
+  <text x="915" y="520" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">6. Fit <tspan font-weight="700" fill="#065f46">isochrones</tspan></text>
+  <text x="915" y="540" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#374151">   -&gt; mass, radius, age</text>
+  <text x="915" y="565" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">7. Check <tspan font-weight="700">kinematics / PM</tspan></text>
+  <text x="915" y="590" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">8. Use <tspan font-weight="700">parallax</tspan> if any</text>
+  <text x="915" y="615" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">9. Convert ratios -&gt;</text>
+  <text x="915" y="635" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#065f46">   physical Mp / Rp</text>
+
+  <rect x="915" y="660" width="225" height="60" rx="8" fill="#a7f3d0" stroke="#065f46" stroke-width="2"/>
+  <text x="1027" y="685" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#064e3b">KEY IDEA</text>
+  <text x="1027" y="707" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f2937">CMD + PM + dust</text>
+
+  <text x="915" y="755" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#065f46">Galactic context =</text>
+  <text x="915" y="778" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1f2937">the Milky Way frame</text>
+  <text x="915" y="820" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#065f46">Notebook: Galactic Context</text>
+  <text x="915" y="860" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">Where ratios become</text>
+  <text x="915" y="880" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">real planet masses/sizes.</text>
+
+  <!-- ========== ABBREVIATIONS LEGEND ========== -->
+  <rect x="40" y="950" width="1120" height="300" rx="14" fill="#f8fafc" stroke="#1f2937" stroke-width="3"/>
+  <text x="600" y="985" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Abbreviations legend (for this figure)</text>
+  <line x1="70" y1="1000" x2="1130" y2="1000" stroke="#d1d5db" stroke-width="2"/>
+
+  <text x="70" y="1030" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2937">Models</text>
+  <text x="70" y="1055" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#1d4ed8">PSPL</tspan> = Point Source, Point Lens</text>
+  <text x="70" y="1078" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#9d174d">FSPL</tspan> = Finite Source, Point Lens</text>
+  <text x="70" y="1101" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#92400e">FSBL / 2L1S</tspan> = Finite Source, Binary Lens</text>
+  <text x="70" y="1124" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">MCMC</tspan> = Monte Carlo error sampling</text>
+  <text x="70" y="1147" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">chi2</tspan> = chi-squared minimization</text>
+  <text x="70" y="1170" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">mm</tspan> = MulensModel package</text>
+
+  <text x="430" y="1030" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2937">Light-curve parameters</text>
+  <text x="430" y="1055" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#1d4ed8">t0</tspan> = time of peak / closest approach</text>
+  <text x="430" y="1078" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#1d4ed8">u0</tspan> = impact parameter (Einstein units)</text>
+  <text x="430" y="1101" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#1d4ed8">t_E</tspan> = Einstein crossing time</text>
+  <text x="430" y="1124" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">A_max</tspan> = maximum magnification</text>
+  <text x="430" y="1147" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#92400e">s, q</tspan> = separation, mass ratio</text>
+  <text x="430" y="1170" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#92400e">alpha, rho</tspan> = trajectory angle, source size</text>
+
+  <text x="820" y="1030" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2937">Context terms</text>
+  <text x="820" y="1055" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#9d174d">CMD</tspan> = Color-Magnitude Diagram</text>
+  <text x="820" y="1078" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">PM</tspan> = proper motion</text>
+  <text x="820" y="1101" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">Rp/Rstar</tspan> = planet/star radius ratio</text>
+  <text x="820" y="1124" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">Mp, Rp</tspan> = physical planet mass, radius</text>
+  <text x="820" y="1147" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">Rstar</tspan> = host-star radius</text>
+  <text x="820" y="1170" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">MW</tspan> = Milky Way</text>
+
+  <text x="600" y="1225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">Mini sketches: blue peak = microlensing; blue diamond labeled "caustic" in Binary Lens; pink dip = transit; galaxy + points = CMD</text>
+</svg>

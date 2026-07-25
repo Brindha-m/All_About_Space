@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#fffefb"/>
+  <text x="50" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#1f2937">How to approach every exercise type</text>
+  <rect x="50" y="62" width="480" height="8" rx="4" fill="#77c943"/>
+
+  <rect x="50" y="100" width="1100" height="80" rx="14" fill="#f3f4f6" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="600" y="135" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Shared loop for every notebook</text>
+  <text x="600" y="162" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#374151">look -&gt; model -&gt; fit -&gt; residuals -&gt; decide next complexity -&gt; interpret</text>
+
+  <rect x="50" y="210" width="260" height="640" rx="16" fill="#eff6ff" stroke="#1f2937" stroke-width="3"/>
+  <text x="180" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">Single Lens</text>
+  <text x="70" y="295" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">1. Plot the data</text>
+  <text x="70" y="325" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">2. Guess t0 from peak</text>
+  <text x="70" y="355" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">3. Guess u0 from A_max</text>
+  <text x="70" y="385" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">4. Guess t_E from width</text>
+  <text x="70" y="415" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">5. Build mm.Model PSPL</text>
+  <text x="70" y="445" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">6. chi2 minimize first</text>
+  <text x="70" y="475" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">7. MCMC for errors</text>
+  <text x="70" y="505" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">8. Check blend degeneracy</text>
+  <text x="70" y="535" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">9. Try FSPL if peak flat</text>
+  <text x="70" y="565" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">10. Try parallax if</text>
+  <text x="70" y="590" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">    wings are asymmetric</text>
+  <text x="70" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7280">Stop when residuals are</text>
+  <text x="70" y="660" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7280">noise-like, not structured.</text>
+  <text x="70" y="710" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1d4ed8">Key objects:</text>
+  <text x="70" y="735" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">Model, MulensData, Event</text>
+  <text x="70" y="760" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">+ emcee / corner</text>
+  <text x="70" y="800" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#065f46">Notebook: SingleLens</text>
+
+  <rect x="330" y="210" width="260" height="640" rx="16" fill="#fef3c7" stroke="#1f2937" stroke-width="3"/>
+  <text x="460" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#92400e">Binary Lens</text>
+  <text x="350" y="295" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">1. Explore caustics (s,q)</text>
+  <text x="350" y="325" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">2. Draw trajectory (alpha)</text>
+  <text x="350" y="355" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">3. Note when rho matters</text>
+  <text x="350" y="385" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">4. Fit PSPL to the host</text>
+  <text x="350" y="415" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   (mask the anomaly)</text>
+  <text x="350" y="445" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">5. Estimate s, q, alpha, rho</text>
+  <text x="350" y="475" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   from geometry</text>
+  <text x="350" y="505" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">6. Try random starts</text>
+  <text x="350" y="535" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">7. Run a grid search</text>
+  <text x="350" y="565" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">8. MCMC around best</text>
+  <text x="350" y="595" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">9. Compare close/wide</text>
+  <text x="350" y="625" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">10. Report both if tied</text>
+  <text x="350" y="670" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7280">Do not jump to orbital</text>
+  <text x="350" y="690" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7280">motion on day one.</text>
+  <text x="350" y="735" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#92400e">Key params:</text>
+  <text x="350" y="760" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">s, q, alpha, rho (+ PSPL)</text>
+  <text x="350" y="800" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#065f46">Notebook: Binary_Lens</text>
+
+  <rect x="610" y="210" width="260" height="640" rx="16" fill="#fce7f3" stroke="#1f2937" stroke-width="3"/>
+  <text x="740" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#9d174d">Transit Context</text>
+  <text x="630" y="295" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">1. Pick your event ID</text>
+  <text x="630" y="325" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">2. Read event + stars</text>
+  <text x="630" y="355" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">3. Plot observed CMD</text>
+  <text x="630" y="385" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">4. Mark host (lens) +</text>
+  <text x="630" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   source positions</text>
+  <text x="630" y="445" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">5. Ask: what does the</text>
+  <text x="630" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   light curve alone say?</text>
+  <text x="630" y="505" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   depth -&gt; Rp/Rstar</text>
+  <text x="630" y="535" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   period -&gt; orbit</text>
+  <text x="630" y="565" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">6. Need Rstar to get Rp</text>
+  <text x="630" y="595" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">7. That forces Galactic</text>
+  <text x="630" y="620" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   host characterization</text>
+  <text x="630" y="670" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7280">Transit context = the</text>
+  <text x="630" y="690" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7280">system properties.</text>
+  <text x="630" y="735" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#9d174d">Key idea:</text>
+  <text x="630" y="760" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">ratios need a host size</text>
+  <text x="630" y="800" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#065f46">Notebook: Transit_Context</text>
+
+  <rect x="890" y="210" width="260" height="640" rx="16" fill="#ecfdf5" stroke="#1f2937" stroke-width="3"/>
+  <text x="1020" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#065f46">Galactic Context</text>
+  <text x="910" y="295" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">1. Simulate disk+bulge</text>
+  <text x="910" y="325" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">2. Apply dust / filters</text>
+  <text x="910" y="355" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">3. Build absolute CMD</text>
+  <text x="910" y="385" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">4. Overlay your target</text>
+  <text x="910" y="415" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">5. Decide population:</text>
+  <text x="910" y="440" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   disk vs bulge?</text>
+  <text x="910" y="475" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">6. Fit isochrones -&gt;</text>
+  <text x="910" y="500" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   mass, radius, age</text>
+  <text x="910" y="535" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">7. Check kinematics /</text>
+  <text x="910" y="560" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   proper motions</text>
+  <text x="910" y="595" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">8. Use parallax if any</text>
+  <text x="910" y="625" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">9. Convert ratios -&gt;</text>
+  <text x="910" y="650" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">   physical Mp / Rp</text>
+  <text x="910" y="700" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7280">Galactic context = the</text>
+  <text x="910" y="720" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7280">Milky Way frame.</text>
+  <text x="910" y="760" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#065f46">Key idea:</text>
+  <text x="910" y="785" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">CMD + PM + dust together</text>
+  <text x="910" y="820" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#065f46">Notebook: Galactic Context</text>
+</svg>

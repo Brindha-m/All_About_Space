@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1180" viewBox="0 0 1200 1180">
+  <rect width="1200" height="1180" fill="#fffefb"/>
+  <text x="50" y="48" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#1f2937">Which MulensModel family should I use?</text>
+  <rect x="50" y="58" width="520" height="7" rx="3" fill="#77c943"/>
+
+  <rect x="420" y="85" width="360" height="65" rx="12" fill="#ecfdf5" stroke="#1f2937" stroke-width="3"/>
+  <text x="600" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#065f46">Inspect the light curve</text>
+  <text x="600" y="135" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#374151">smooth peak? anomaly? sharp spikes?</text>
+
+  <path d="M480 150 V190 H250 V215" fill="none" stroke="#1f2937" stroke-width="3"/>
+  <path d="M600 150 V215" fill="none" stroke="#1f2937" stroke-width="3"/>
+  <path d="M720 150 V190 H950 V215" fill="none" stroke="#1f2937" stroke-width="3"/>
+
+  <rect x="100" y="220" width="300" height="65" rx="12" fill="#eff6ff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="250" y="248" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">One smooth peak?</text>
+  <text x="250" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#374151">no short spikes / dips</text>
+
+  <rect x="450" y="220" width="300" height="65" rx="12" fill="#fef3c7" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="600" y="248" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#92400e">Short anomaly / spikes?</text>
+  <text x="600" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#374151">planet or stellar binary</text>
+
+  <rect x="800" y="220" width="300" height="65" rx="12" fill="#fce7f3" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="950" y="248" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#9d174d">Peak looks flattened?</text>
+  <text x="950" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#374151">high mag or caustic cross</text>
+
+  <path d="M250 285 V310" stroke="#1f2937" stroke-width="3"/>
+  <path d="M600 285 V310" stroke="#1f2937" stroke-width="3"/>
+  <path d="M950 285 V310" stroke="#1f2937" stroke-width="3"/>
+
+  <rect x="100" y="315" width="300" height="80" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="250" y="348" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#1e3a8a">PSPL (1L1S)</text>
+  <text x="250" y="375" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">t0, u0, t_E (+ F_S, F_B)</text>
+
+  <rect x="450" y="315" width="300" height="80" rx="12" fill="#fde68a" stroke="#92400e" stroke-width="3"/>
+  <text x="600" y="348" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#78350f">FSBL / 2L1S</text>
+  <text x="600" y="375" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">+ s, q, alpha, rho</text>
+
+  <rect x="800" y="315" width="300" height="80" rx="12" fill="#fbcfe8" stroke="#9d174d" stroke-width="3"/>
+  <text x="950" y="348" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#831843">FSPL (finite source)</text>
+  <text x="950" y="375" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937">add rho = theta_star / theta_E</text>
+
+  <rect x="100" y="420" width="1000" height="105" rx="12" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <text x="600" y="450" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Add higher-order effects only when residuals require them</text>
+  <text x="130" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">Parallax (pi_E): long events, asymmetric wings</text>
+  <text x="130" y="505" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">Orbital motion: changing s or alpha during the event</text>
+  <text x="620" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">BSPL / 1L2S: two source stars</text>
+  <text x="620" y="505" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937">3L1S: host + two companions (rare)</text>
+
+  <rect x="100" y="545" width="1000" height="155" rx="12" fill="#ecfdf5" stroke="#065f46" stroke-width="3"/>
+  <text x="600" y="575" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#065f46">Tools used in this workshop</text>
+  <text x="130" y="605" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937"><tspan font-weight="700">MulensModel</tspan> - Hands-On I single + binary fitting</text>
+  <text x="150" y="625" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">(you choose the optimizer)</text>
+  <text x="130" y="650" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937"><tspan font-weight="700">VBMicrolensing</tspan> - fast magnification engine</text>
+  <text x="150" y="670" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">(often paired with MulensModel)</text>
+  <text x="130" y="695" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1f2937"><tspan font-weight="700">pyLIMA / RTModel / BAGLE</tspan> - MSOS / research pipelines</text>
+
+  <!-- Abbreviations legend -->
+  <rect x="40" y="725" width="1120" height="400" rx="14" fill="#f8fafc" stroke="#1f2937" stroke-width="3"/>
+  <text x="600" y="760" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Abbreviations legend (for this figure)</text>
+  <line x1="70" y1="775" x2="1130" y2="775" stroke="#d1d5db" stroke-width="2"/>
+
+  <text x="70" y="805" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2937">Model families</text>
+  <text x="70" y="830" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#1d4ed8">PSPL</tspan> = Point Source, Point Lens</text>
+  <text x="70" y="853" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#9d174d">FSPL</tspan> = Finite Source, Point Lens</text>
+  <text x="70" y="876" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#92400e">FSBL</tspan> = Finite Source, Binary Lens</text>
+  <text x="70" y="899" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">BSPL</tspan> = Binary Source, Point Lens</text>
+  <text x="70" y="922" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">1L1S</tspan> = 1 Lens, 1 Source (= PSPL/FSPL)</text>
+  <text x="70" y="945" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">2L1S</tspan> = 2 Lenses, 1 Source (= FSBL)</text>
+  <text x="70" y="968" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">1L2S</tspan> = 1 Lens, 2 Sources (= BSPL)</text>
+  <text x="70" y="991" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">3L1S</tspan> = 3 Lenses, 1 Source (triple)</text>
+  <text x="70" y="1014" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">MSOS</tspan> = Roman microlensing pipeline</text>
+
+  <text x="470" y="805" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2937">Parameters</text>
+  <text x="470" y="830" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#1d4ed8">t0</tspan> = time of peak / closest approach</text>
+  <text x="470" y="853" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#1d4ed8">u0</tspan> = impact parameter (Einstein units)</text>
+  <text x="470" y="876" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#1d4ed8">t_E</tspan> = Einstein crossing time</text>
+  <text x="470" y="899" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">F_S, F_B</tspan> = source flux, blend flux</text>
+  <text x="470" y="922" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#92400e">s</tspan> = projected lens separation</text>
+  <text x="470" y="945" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#92400e">q</tspan> = mass ratio (companion / primary)</text>
+  <text x="470" y="968" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#92400e">alpha</tspan> = source trajectory angle</text>
+  <text x="470" y="991" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700" fill="#92400e">rho</tspan> = source radius / Einstein radius</text>
+  <text x="470" y="1014" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">pi_E</tspan> = microlens parallax</text>
+  <text x="470" y="1037" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">theta_E</tspan> = angular Einstein radius</text>
+
+  <text x="850" y="805" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1f2937">Also on this page</text>
+  <text x="850" y="830" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">theta_star</tspan> = source angular size</text>
+  <text x="850" y="853" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">caustic</tspan> = high-magnification curve</text>
+  <text x="850" y="876" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">residuals</tspan> = data minus model</text>
+  <text x="850" y="899" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">xallarap</tspan> = source orbital motion</text>
+  <text x="850" y="922" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">MulensModel</tspan> = fitting library</text>
+  <text x="850" y="945" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">VBMicrolensing</tspan> = mag. engine</text>
+  <text x="850" y="968" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">pyLIMA / RTModel</tspan> = other fitters</text>
+  <text x="850" y="991" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2937"><tspan font-weight="700">BAGLE</tspan> = photo + astrometry</text>
+
+  <text x="600" y="1105" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#065f46">Rule: start with PSPL. Add FSPL / FSBL / parallax only when the light curve requires it.</text>
+</svg>
