@@ -1,6 +1,13 @@
 # Assignments Notebooks — Hands-On Guide
 
-Study map for the five Sagan Summer Workshop 2026 notebooks in this folder. Use it before you open Colab: which notebook to run, which Mulens model to pick, and how to approach each exercise type.
+Guide for the five Sagan Summer Workshop 2026 notebooks in this folder. 
+
+## How to approach every exercise type
+
+![Exercise approach map](assets/exercise-approach-map.svg)
+
+The figure includes an **abbreviations legend** at the bottom (**PSPL**, **FSPL**, **t0**, **u0**, **t_E**, **s/q/alpha/rho**, **CMD**, **PM**, **Rp/Rstar**, etc.). Mini-sketch labels sit **above** each plot so they are not covered by the curves.
+
 
 ![Hands-on notebook roadmap](assets/assignment-roadmap.svg)
 
@@ -130,11 +137,6 @@ MulensModel **generates** light curves and scores fits; **you** choose the optim
 
 ---
 
-## How to approach every exercise type
-
-![Exercise approach map](assets/exercise-approach-map.svg)
-
-The figure includes an **abbreviations legend** at the bottom (**PSPL**, **FSPL**, **t0**, **u0**, **t_E**, **s/q/alpha/rho**, **CMD**, **PM**, **Rp/Rstar**, etc.). Mini-sketch labels sit **above** each plot so they are not covered by the curves.
 
 Concept sketches that match each column:
 
@@ -323,22 +325,5 @@ flowchart TD
 
 ---
 
-## Suggested study session
-
-| Time block | Do this |
-|---|---|
-| 15 min | Setup notebook + confirm MulensModel imports |
-| 45–60 min | Single Lens through χ² + one MCMC corner plot |
-| 60–90 min | Binary Lens Exercises 1–4, then one grid + MCMC pass |
-| 45–60 min | Transit Context: pick an event, finish CMD placement |
-| 60+ min | Galactic Context group project through isochrones and a mass/radius estimate |
-
----
-
-## Extra reading inside this repo
-
-- Model ladder and fitting loop: [topics/04](../topics/04-advanced-microlensing-and-yields.md)
-- Hands-on exercise sketches A–E: [topics/10](../topics/10-hands-on-and-resources.md)
-- Colab instructions PDF: [SSW2026_Google_Colab_Instructions.pdf](../docs/SSW2026_Google_Colab_Instructions.pdf) (also linked from the course [README](../README.md))
 
 Software links: [MulensModel](https://github.com/rpoleski/MulensModel) · [VBMicrolensing](https://github.com/valboz/VBMicrolensing) · [pyLIMA](https://github.com/ebachelet/pyLIMA) · [RTModel](https://github.com/valboz/RTModel) · [BAGLE](https://github.com/MovingUniverseLab/BAGLE_Microlensing)
