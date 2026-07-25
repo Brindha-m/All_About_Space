@@ -1,4 +1,4 @@
-#### Guide for the five Sagan Summer Workshop 2026 notebooks in this folder. 
+### Guide for the five Sagan Summer Workshop 2026 notebooks in this folder. 
 
 ![Exercise approach map](assets/exercise-approach-map.svg)
 
