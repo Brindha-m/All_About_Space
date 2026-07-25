@@ -2,8 +2,6 @@
 
 Guide for the five Sagan Summer Workshop 2026 notebooks in this folder. 
 
-## How to approach every exercise type
-
 ![Exercise approach map](assets/exercise-approach-map.svg)
 
 The figure includes an **abbreviations legend** at the bottom (**PSPL**, **FSPL**, **t0**, **u0**, **t_E**, **s/q/alpha/rho**, **CMD**, **PM**, **Rp/Rstar**, etc.). Mini-sketch labels sit **above** each plot so they are not covered by the curves.
