@@ -1,4 +1,4 @@
-## Guide for the five Sagan Summer Workshop notebooks.
+## Sagan Summer Workshop notebooks.
 
 > #### [Eyes on Exoplanet](https://eyes.nasa.gov/apps/exo/)
 
