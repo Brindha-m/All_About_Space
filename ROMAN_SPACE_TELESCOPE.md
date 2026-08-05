@@ -1,15 +1,10 @@
 # Roman Space Telescope
 
-A focused guide to the **Nancy Grace Roman Space Telescope**, built from the 2026 Sagan Summer Workshop screenshots in [`Image ppt/best/`](Image%20ppt/best/) and new comparison graphs against **Hubble** and **Euclid**.
-
-All images used on this page live in [`assets/roman_assets/`](assets/roman_assets/).
+Comparison against **Hubble**, **Euclid** and **Roman Space Telescope**.
 
 ![Roman Wide Field Instrument parameters](assets/roman_assets/roman-wfi-instrument-parameters.png)
 
 Roman is designed as a **wide-field infrared survey observatory**: Hubble-class angular resolution over roughly **100× Hubble’s field of view**, optimized for dark energy, Galactic astrophysics, and a transformative exoplanet census via microlensing and transits.
-
----
-
 
 ---
 
