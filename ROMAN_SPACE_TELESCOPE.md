@@ -83,7 +83,7 @@ Also useful from the same folder:
 
 ---
 
-## 3. Workshop cover images (`Image ppt/best`)
+## 3. Workshop cover images
 
 Selected best-cover screenshots used on this page (also kept under [`assets/roman_assets/`](assets/roman_assets/)). Credit the original presenters when reusing.
 
@@ -100,10 +100,6 @@ Wide surveys find candidates; Hubble (and later Roman-resolution imaging) reveal
 ### Contemporaneous surveys (Roman + Euclid + ground)
 
 ![Contemporaneous microlensing and time-domain surveys](assets/roman_assets/contemporaneous-surveys-roman-euclid.png)
-
-### WFI instrument parameters (vs Hubble callouts)
-
-![Roman WFI instrument parameters](assets/roman_assets/roman-wfi-instrument-parameters.png)
 
 ### Galactic Plane Survey in a nutshell
 
