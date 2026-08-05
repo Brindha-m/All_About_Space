@@ -10,16 +10,6 @@ Roman is designed as a **wide-field infrared survey observatory**: Hubble-class 
 
 ---
 
-## Contents
-
-1. [What Roman is](#1-what-roman-is)
-2. [Hubble · Euclid · Roman — generated comparison graphs](#2-hubble--euclid--roman--generated-comparison-graphs)
-3. [Workshop cover images (Image ppt/best)](#3-workshop-cover-images-image-pptbest)
-4. [Why the three telescopes work together](#4-why-the-three-telescopes-work-together)
-5. [Galactic surveys and data volume](#5-galactic-surveys-and-data-volume)
-6. [Exoplanet reach](#6-exoplanet-reach)
-7. [Coronagraph technology path](#7-coronagraph-technology-path)
-8. [Further reading in this repo](#8-further-reading-in-this-repo)
 
 ---
 
@@ -202,14 +192,6 @@ That path sits alongside — not instead of — the statistical census from WFI 
 
 ---
 
-## 8. Further reading in this repo
-
-- [Main course README](README.md) — full learning path
-- [Roman assets folder](assets/roman_assets/) — every image used on this page
-- [Generated diagrams gallery](IMAGE_GALLERY.md)
-- [Workshop slides gallery](SLIDES_GALLERY.md)
-- [Key concepts gallery](KEY_CONCEPTS_GALLERY.md)
-- [Hands-on notebooks](Assignments%20Notebooks/README.md)
 
 ### External
 
@@ -220,6 +202,3 @@ That path sits alongside — not instead of — the statistical census from WFI 
 
 ---
 
-## Scope and caution
-
-These notes are a learning aid from workshop screenshots and generated diagrams, not official mission documentation. Survey fields, cadences, depths, and yields can change. Verify numbers against current NASA/ESA sources before citing them in research.
