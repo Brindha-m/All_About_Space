@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 920" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <clipPath id="mH"><circle cx="120" cy="143" r="48"/></clipPath>
+    <clipPath id="mE"><circle cx="220" cy="143" r="48"/></clipPath>
+    <clipPath id="mR"><circle cx="320" cy="143" r="48"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="920" fill="#f8fafc"/>
+  <text x="600" y="40" text-anchor="middle" font-size="24" font-weight="700" fill="#0f172a">Minute Details That Change Exoplanet Inference</text>
+  <text x="600" y="68" text-anchor="middle" font-size="14" fill="#475569">Why Hubble, Euclid, and Roman must be combined carefully for bulge exoplanet science</text>
+
+  <!-- Telescope strip -->
+  <rect x="40" y="85" width="1120" height="120" rx="14" fill="#0f172a"/>
+  <image href="hubble.png" x="72" y="95" width="96" height="96" preserveAspectRatio="xMidYMid slice" clip-path="url(#mH)"/>
+  <image href="euclid.png" x="172" y="95" width="96" height="96" preserveAspectRatio="xMidYMid slice" clip-path="url(#mE)"/>
+  <image href="roman.png" x="272" y="95" width="96" height="96" preserveAspectRatio="xMidYMid slice" clip-path="url(#mR)"/>
+  <circle cx="120" cy="143" r="48" fill="none" stroke="#f87171" stroke-width="3"/>
+  <circle cx="220" cy="143" r="48" fill="none" stroke="#4ade80" stroke-width="3"/>
+  <circle cx="320" cy="143" r="48" fill="none" stroke="#c4b5fd" stroke-width="3"/>
+  <text x="120" y="198" text-anchor="middle" font-size="11" font-weight="700" fill="#fecaca">Hubble</text>
+  <text x="220" y="198" text-anchor="middle" font-size="11" font-weight="700" fill="#bbf7d0">Euclid</text>
+  <text x="320" y="198" text-anchor="middle" font-size="11" font-weight="700" fill="#ddd6fe">Roman</text>
+  <text x="760" y="130" text-anchor="middle" font-size="16" font-weight="700" fill="#f8fafc">Three missions, one inference chain</text>
+  <text x="760" y="158" text-anchor="middle" font-size="13" fill="#cbd5e1">resolution + filters/dust + time/parallax</text>
+  <text x="760" y="180" text-anchor="middle" font-size="13" fill="#94a3b8">= trustworthy planet measurements</text>
+
+  <!-- Column 1: Resolution -->
+  <rect x="40" y="220" width="360" height="620" rx="16" fill="#ffffff" stroke="#fecaca" stroke-width="3"/>
+  <rect x="40" y="220" width="360" height="56" rx="16" fill="#7f1d1d"/>
+  <rect x="40" y="250" width="360" height="26" fill="#7f1d1d"/>
+  <text x="220" y="255" text-anchor="middle" font-size="17" font-weight="700" fill="#fecaca">1. Resolution and crowding</text>
+
+  <!-- Visual: two stars blended vs resolved -->
+  <rect x="70" y="300" width="300" height="130" rx="10" fill="#fff1f2" stroke="#fda4af"/>
+  <text x="220" y="325" text-anchor="middle" font-size="12" font-weight="700" fill="#9f1239">At 8 kpc, 0.1 arcsec ~ 800 AU</text>
+  <circle cx="140" cy="375" r="22" fill="#fca5a5" opacity="0.7"/>
+  <circle cx="155" cy="375" r="18" fill="#f87171" opacity="0.8"/>
+  <text x="148" y="415" text-anchor="middle" font-size="11" fill="#7f1d1d">blended (one blob)</text>
+  <circle cx="270" cy="370" r="14" fill="#ef4444"/>
+  <circle cx="310" cy="380" r="11" fill="#fb7185"/>
+  <text x="290" y="415" text-anchor="middle" font-size="11" fill="#7f1d1d">resolved (two stars)</text>
+
+  <text x="70" y="465" font-size="13" fill="#334155">Roman 0.11"/pix ~ Hubble-like for bulge work</text>
+  <text x="70" y="490" font-size="13" fill="#334155">Many binaries stay unresolved at 800 AU</text>
+  <text x="70" y="515" font-size="13" fill="#334155">Euclid VIS helps; NISP 0.33" blends more</text>
+  <text x="70" y="540" font-size="13" fill="#334155">Hubble stamps resolve rare "hidden gems"</text>
+  <text x="70" y="565" font-size="13" fill="#334155">Blends bias radii, ages, SEDs, source flux</text>
+
+  <rect x="70" y="600" width="300" height="90" rx="10" fill="#fee2e2"/>
+  <text x="220" y="635" text-anchor="middle" font-size="14" font-weight="700" fill="#9f1239">Takeaway</text>
+  <text x="220" y="660" text-anchor="middle" font-size="13" fill="#7f1d1d">Match resolution treatment when</text>
+  <text x="220" y="680" text-anchor="middle" font-size="13" fill="#7f1d1d">combining catalogs across missions</text>
+
+  <!-- Column 2: Filters -->
+  <rect x="420" y="220" width="360" height="620" rx="16" fill="#ffffff" stroke="#bbf7d0" stroke-width="3"/>
+  <rect x="420" y="220" width="360" height="56" rx="16" fill="#14532d"/>
+  <rect x="420" y="250" width="360" height="26" fill="#14532d"/>
+  <text x="600" y="255" text-anchor="middle" font-size="17" font-weight="700" fill="#bbf7d0">2. Filters and dust</text>
+
+  <!-- Visual: dust extinguishes optical more than IR -->
+  <rect x="450" y="300" width="300" height="130" rx="10" fill="#ecfdf5" stroke="#86efac"/>
+  <text x="600" y="325" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">Bulge dust dims blue light more</text>
+  <circle cx="500" cy="375" r="20" fill="#fde047"/>
+  <rect x="530" y="355" width="70" height="40" rx="6" fill="#78716c" opacity="0.55"/>
+  <text x="565" y="380" text-anchor="middle" font-size="11" fill="#fff">dust</text>
+  <path d="M540 375 H620" stroke="#f59e0b" stroke-width="3" stroke-dasharray="4 3"/>
+  <text x="640" y="370" font-size="12" font-weight="700" fill="#b45309">optical</text>
+  <text x="640" y="390" font-size="12" font-weight="700" fill="#7c3aed">NIR survives</text>
+  <path d="M540 390 H620" stroke="#7c3aed" stroke-width="4"/>
+
+  <text x="450" y="465" font-size="13" fill="#334155">Roman F146 gathers photons through dust</text>
+  <text x="450" y="490" font-size="13" fill="#334155">Euclid VIS adds optical color; NISP YJH</text>
+  <text x="450" y="515" font-size="13" fill="#334155">Hubble UV-optical constrain Teff</text>
+  <text x="450" y="540" font-size="13" fill="#334155">Breaks extinction / temperature degeneracy</text>
+  <text x="450" y="565" font-size="13" fill="#334155">SED fits need passbands + dust laws</text>
+
+  <rect x="450" y="600" width="300" height="90" rx="10" fill="#dcfce7"/>
+  <text x="600" y="635" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">Takeaway</text>
+  <text x="600" y="660" text-anchor="middle" font-size="13" fill="#14532d">Multi-mission colors pin down</text>
+  <text x="600" y="680" text-anchor="middle" font-size="13" fill="#14532d">source / lens / blend light</text>
+
+  <!-- Column 3: Time -->
+  <rect x="800" y="220" width="360" height="620" rx="16" fill="#ffffff" stroke="#ddd6fe" stroke-width="3"/>
+  <rect x="800" y="220" width="360" height="56" rx="16" fill="#4c1d95"/>
+  <rect x="800" y="250" width="360" height="26" fill="#4c1d95"/>
+  <text x="980" y="255" text-anchor="middle" font-size="17" font-weight="700" fill="#ede9fe">3. Time and parallax</text>
+
+  <!-- Visual: light curve + two viewpoints -->
+  <rect x="830" y="300" width="300" height="130" rx="10" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <text x="980" y="325" text-anchor="middle" font-size="12" font-weight="700" fill="#5b21b6">Cadence catches short anomalies</text>
+  <path d="M850 390 C880 390 900 385 920 350 C940 315 955 315 970 350 C990 385 1010 390 1110 390" fill="none" stroke="#7c3aed" stroke-width="3"/>
+  <circle cx="945" cy="330" r="4" fill="#f59e0b"/>
+  <text x="945" y="318" text-anchor="middle" font-size="10" font-weight="700" fill="#b45309">planet</text>
+  <circle cx="860" cy="405" r="8" fill="#94a3b8"/>
+  <circle cx="1100" cy="405" r="8" fill="#6366f1"/>
+  <text x="860" y="422" text-anchor="middle" font-size="10" fill="#64748b">Earth</text>
+  <text x="1100" y="422" text-anchor="middle" font-size="10" fill="#4f46e5">space</text>
+
+  <text x="830" y="465" font-size="13" fill="#334155">GBTDS cadence resolves planets and transits</text>
+  <text x="830" y="490" font-size="13" fill="#334155">Euclid / ground add contemporaneous data</text>
+  <text x="830" y="515" font-size="13" fill="#334155">Separated telescopes change lens path</text>
+  <text x="830" y="540" font-size="13" fill="#334155">Space-ground parallax (pi_E) helps mass</text>
+  <text x="830" y="565" font-size="13" fill="#334155">Hubble archives extend PM baselines</text>
+
+  <rect x="830" y="600" width="300" height="90" rx="10" fill="#ede9fe"/>
+  <text x="980" y="635" text-anchor="middle" font-size="14" font-weight="700" fill="#5b21b6">Takeaway</text>
+  <text x="980" y="660" text-anchor="middle" font-size="13" fill="#4c1d95">Cadence + baseline geometry</text>
+  <text x="980" y="680" text-anchor="middle" font-size="13" fill="#4c1d95">turn light curves into masses</text>
+
+  <text x="600" y="880" text-anchor="middle" font-size="13" fill="#64748b">Miss any one of these three and planet radii / masses can shift systematically</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 430" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="430" fill="#fafbfd"/>
+  <text x="490" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">Filter Wavelength Coverage: Hubble, Euclid, Rubin, and Roman</text>
+
+  <!-- Mission labels -->
+  <g font-size="14" font-weight="bold" fill="#1f2937" text-anchor="end">
+    <text x="72" y="111">Hubble</text>
+    <text x="72" y="161">Euclid</text>
+    <text x="72" y="211">Rubin</text>
+    <text x="72" y="261">Roman</text>
+  </g>
+
+  <!-- Hubble -->
+  <rect x="146" y="90" width="235" height="30" rx="5" fill="#fecaca" stroke="#b91c1c"/>
+  <text x="263" y="110" text-anchor="middle" font-size="11" fill="#7f1d1d">F606W  F814W  F098M</text>
+  <rect x="435" y="90" width="302" height="30" rx="5" fill="#fecaca" stroke="#b91c1c"/>
+  <text x="586" y="110" text-anchor="middle" font-size="11" fill="#7f1d1d">F127M  F139M  F153M  F197M</text>
+
+  <!-- Euclid -->
+  <rect x="177" y="140" width="135" height="30" rx="5" fill="#bbf7d0" stroke="#047857"/>
+  <text x="244" y="160" text-anchor="middle" font-size="11" fill="#065f46">VIS</text>
+
+  <!-- Rubin -->
+  <rect x="88" y="190" width="294" height="30" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
+  <text x="235" y="210" text-anchor="middle" font-size="11" fill="#1e3a8a">u&#160;&#160;&#160;g&#160;&#160;&#160;r&#160;&#160;&#160;i&#160;&#160;&#160;z&#160;&#160;&#160;y</text>
+
+  <!-- Roman filters -->
+  <g stroke="#5b21b6">
+    <rect x="150" y="240" width="108" height="30" fill="#ddd6fe"/>
+    <rect x="258" y="240" width="85"  height="30" fill="#c4b5fd"/>
+    <rect x="343" y="240" width="81"  height="30" fill="#ddd6fe"/>
+    <rect x="424" y="240" width="100" height="30" fill="#c4b5fd"/>
+    <rect x="524" y="240" width="124" height="30" fill="#ddd6fe"/>
+    <rect x="648" y="240" width="89"  height="30" fill="#c4b5fd"/>
+    <rect x="737" y="240" width="116" height="30" fill="#ddd6fe"/>
+  </g>
+  <g font-size="10.5" fill="#4c1d95" text-anchor="middle">
+    <text x="204" y="259">F062</text>
+    <text x="300" y="259">F087</text>
+    <text x="383" y="259">F106</text>
+    <text x="474" y="259">F129</text>
+    <text x="586" y="259">F158</text>
+    <text x="692" y="259">F184</text>
+    <text x="795" y="259">F213</text>
+  </g>
+  <!-- F146 wide filter -->
+  <rect x="323" y="285" width="414" height="30" rx="5" fill="#7c3aed"/>
+  <text x="530" y="305" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">F146 - very wide, the main GBTDS survey filter</text>
+
+  <!-- Axis -->
+  <line x1="80" y1="345" x2="930" y2="345" stroke="#4b5563" stroke-width="1.5"/>
+  <g stroke="#4b5563">
+    <line x1="157" y1="340" x2="157" y2="350"/>
+    <line x1="350" y1="340" x2="350" y2="350"/>
+    <line x1="544" y1="340" x2="544" y2="350"/>
+    <line x1="737" y1="340" x2="737" y2="350"/>
+    <line x1="930" y1="340" x2="930" y2="350"/>
+  </g>
+  <g font-size="12" fill="#4b5563" text-anchor="middle">
+    <text x="157" y="368">500</text>
+    <text x="350" y="368">1000</text>
+    <text x="544" y="368">1500</text>
+    <text x="737" y="368">2000</text>
+    <text x="930" y="368">2500</text>
+  </g>
+  <text x="505" y="392" text-anchor="middle" font-size="13" fill="#1f2937">wavelength (nm)</text>
+
+  <text x="490" y="418" text-anchor="middle" font-size="13" fill="#4b5563">Roman's near-infrared bands see through Galactic dust far better than optical surveys - crucial toward the bulge.</text>
+</svg>

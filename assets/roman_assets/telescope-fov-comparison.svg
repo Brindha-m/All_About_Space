@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1000" height="560" fill="#0b1220"/>
+  <text x="500" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#f8fafc">Field-of-View Scale: Hubble vs Euclid vs Roman</text>
+  <text x="500" y="64" text-anchor="middle" font-size="13" fill="#94a3b8">Areas drawn roughly to relative scale (deg2). Roman H 100 Hubble; Euclid H 2 Roman.</text>
+
+  <!-- sky backdrop -->
+  <rect x="60" y="95" width="880" height="360" rx="10" fill="#111827" stroke="#334155"/>
+
+  <!-- Euclid FOV ~0.55 deg2 - largest box, scaled so Roman 0.281 is the reference -->
+  <!-- Use linear size ~ sqrt(area). Roman side = 1, Euclid side = sqrt(0.55/0.281)H1.4, Hubble side = sqrt(0.003/0.281)H0.103 -->
+  <!-- Roman visual width 320 px Euclid 448, Hubble 33 -->
+  <rect x="120" y="130" width="448" height="280" rx="4" fill="#166534" fill-opacity="0.35" stroke="#4ade80" stroke-width="2"/>
+  <text x="344" y="155" text-anchor="middle" font-size="15" font-weight="700" fill="#86efac">Euclid VIS / NISP H 0.5-0.57 deg2</text>
+  <text x="344" y="176" text-anchor="middle" font-size="12" fill="#bbf7d0">largest single-pointing footprint of the three</text>
+
+  <!-- Roman FOV -->
+  <rect x="180" y="190" width="320" height="200" rx="3" fill="#5b21b6" fill-opacity="0.55" stroke="#c4b5fd" stroke-width="2.5"/>
+  <text x="340" y="220" text-anchor="middle" font-size="15" font-weight="700" fill="#ede9fe">Roman WFI = 0.281 deg2</text>
+  <text x="340" y="242" text-anchor="middle" font-size="12" fill="#ddd6fe">0.8 0.4 active area</text>
+  <text x="340" y="262" text-anchor="middle" font-size="12" fill="#c4b5fd">63 H4RG mosaic 0.113/pix</text>
+
+  <!-- Hubble FOV tiny -->
+  <rect x="318" y="285" width="34" height="34" fill="#ef4444" stroke="#fecaca" stroke-width="2"/>
+  <line x1="352" y1="302" x2="430" y2="302" stroke="#fecaca" stroke-width="1.5"/>
+  <text x="438" y="298" font-size="13" font-weight="700" fill="#fecaca">Hubble H 0.003 deg2</text>
+  <text x="438" y="316" font-size="11" fill="#fca5a5">~1/100 of Roman (workshop)</text>
+
+  <!-- Callouts -->
+  <g font-size="12" fill="#cbd5e1">
+    <text x="70" y="485">Relative area (approx.):</text>
+    <rect x="220" y="472" width="14" height="14" fill="#ef4444"/>
+    <text x="240" y="484" fill="#fecaca">Hubble 1</text>
+    <rect x="340" y="472" width="14" height="14" fill="#5b21b6"/>
+    <text x="360" y="484" fill="#ddd6fe">Roman ~100</text>
+    <rect x="490" y="472" width="14" height="14" fill="#166534"/>
+    <text x="510" y="484" fill="#86efac">Euclid ~180-190</text>
+  </g>
+  <text x="500" y="528" text-anchor="middle" font-size="12" fill="#94a3b8">Why it matters for exoplanets: Roman packs Hubble-like resolution into a survey FOV - millions of bulge stars per pointing for microlensing and transits.</text>
+</svg>

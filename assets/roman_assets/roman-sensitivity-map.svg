@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="500" fill="#fafbfd"/>
+  <text x="450" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">Where Roman Finds Planets - Complementary to Transit Surveys</text>
+
+  <!-- Plot frame -->
+  <rect x="100" y="70" width="740" height="330" fill="#ffffff" stroke="#9ca3af"/>
+
+  <!-- Kepler region -->
+  <path d="M 100 350 L 285 345 L 470 300 L 470 70 L 100 70 Z" fill="#fecaca" fill-opacity="0.55"/>
+  <!-- Roman region -->
+  <path d="M 400 70 L 400 300 C 430 350, 470 380, 563 393 C 650 400, 740 370, 840 330 L 840 70 Z" fill="#bfdbfe" fill-opacity="0.6"/>
+
+  <text x="180" y="120" font-size="15" font-weight="bold" fill="#b91c1c">Transit surveys</text>
+  <text x="180" y="140" font-size="13" fill="#b91c1c">(e.g. Kepler): close-in planets</text>
+  <text x="620" y="120" font-size="15" font-weight="bold" fill="#1d4ed8">Roman microlensing:</text>
+  <text x="620" y="140" font-size="13" fill="#1d4ed8">cool planets beyond the snow line</text>
+
+  <!-- Snow line -->
+  <line x1="550" y1="70" x2="550" y2="400" stroke="#0e7490" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="558" y="390" font-size="12" fill="#0e7490">snow line (~2.7 AU)</text>
+
+  <!-- Reference planets -->
+  <circle cx="470" cy="336" r="6" fill="#065f46"/>
+  <text x="482" y="341" font-size="12" fill="#065f46" font-weight="bold">Earth</text>
+  <circle cx="602" cy="176" r="8" fill="#9a3412"/>
+  <text x="616" y="181" font-size="12" fill="#9a3412" font-weight="bold">Jupiter</text>
+
+  <!-- Axis ticks -->
+  <g font-size="12" fill="#4b5563">
+    <text x="100" y="422" text-anchor="middle">0.01</text>
+    <text x="285" y="422" text-anchor="middle">0.1</text>
+    <text x="470" y="422" text-anchor="middle">1</text>
+    <text x="655" y="422" text-anchor="middle">10</text>
+    <text x="840" y="422" text-anchor="middle">100</text>
+    <text x="92" y="404" text-anchor="end">0.1</text>
+    <text x="92" y="340" text-anchor="end">1</text>
+    <text x="92" y="276" text-anchor="end">10</text>
+    <text x="92" y="212" text-anchor="end">100</text>
+    <text x="92" y="148" text-anchor="end">1000</text>
+    <text x="92" y="84" text-anchor="end">10000</text>
+  </g>
+  <text x="470" y="452" text-anchor="middle" font-size="14" fill="#1f2937">orbital separation (AU, log scale)</text>
+  <text x="30" y="240" font-size="14" fill="#1f2937" transform="rotate(-90 30 240)" text-anchor="middle">planet mass (Earth masses)</text>
+
+  <text x="450" y="484" text-anchor="middle" font-size="13" fill="#4b5563">Roman expects hundreds of millions of precise light curves and thousands of microlensing planets.</text>
+</svg>

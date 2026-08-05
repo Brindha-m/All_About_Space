@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 520" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1050" height="520" fill="#fafbfd"/>
+  <text x="525" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">Wavelength &amp; Filter Coverage: Hubble Euclid Roman</text>
+  <text x="525" y="56" text-anchor="middle" font-size="12" fill="#6b7280">Redrawn from the workshop "Photometry Party!" slide (Image ppt/best) with Euclid NISP detail added</text>
+
+  <!-- axis helper: 300-2500 nm maps to x=120-980 ( = 860 over 2200 nm 0.3909 px/nm) -->
+  <!-- x(nm) = 120 + (nm-300)*0.3909 -->
+
+  <g font-size="14" font-weight="700" fill="#1f2937" text-anchor="end">
+    <text x="108" y="118">Hubble</text>
+    <text x="108" y="210">Euclid</text>
+    <text x="108" y="330">Roman</text>
+  </g>
+
+  <!-- Hubble optical -->
+  <rect x="198" y="95" width="313" height="36" rx="5" fill="#fecaca" stroke="#b91c1c"/>
+  <text x="354" y="118" text-anchor="middle" font-size="11" fill="#7f1d1d">F606W F814W F098M</text>
+  <!-- Hubble NIR -->
+  <rect x="472" y="95" width="274" height="36" rx="5" fill="#fecaca" stroke="#b91c1c"/>
+  <text x="609" y="118" text-anchor="middle" font-size="11" fill="#7f1d1d">F127M F139M F153M F197M</text>
+  <text x="198" y="148" font-size="11" fill="#9f1239">Workshop bulge-relevant set ACS/WFC3 UV-optical extends blueward of this bar</text>
+
+  <!-- Euclid VIS -->
+  <rect x="218" y="175" width="137" height="32" rx="5" fill="#86efac" stroke="#047857"/>
+  <text x="286" y="196" text-anchor="middle" font-size="12" font-weight="700" fill="#065f46">VIS</text>
+  <text x="286" y="220" text-anchor="middle" font-size="10" fill="#166534">~550-900 nm</text>
+  <!-- Euclid NISP -->
+  <rect x="374" y="175" width="410" height="32" rx="5" fill="#bbf7d0" stroke="#047857"/>
+  <text x="460" y="196" text-anchor="middle" font-size="11" fill="#065f46">Y</text>
+  <text x="560" y="196" text-anchor="middle" font-size="11" fill="#065f46">J</text>
+  <text x="680" y="196" text-anchor="middle" font-size="11" fill="#065f46">H</text>
+  <text x="579" y="220" text-anchor="middle" font-size="10" fill="#166534">NISP ~950-2020 nm (not shown on workshop VIS-only bar)</text>
+  <text x="218" y="248" font-size="11" fill="#166534">Dual channel: optical imaging (VIS) + near-IR photometry/spectroscopy (NISP)</text>
+
+  <!-- Roman filters -->
+  <g stroke="#5b21b6" stroke-width="1">
+    <rect x="190" y="290" width="100" height="34" fill="#ddd6fe"/>
+    <rect x="290" y="290" width="78" height="34" fill="#c4b5fd"/>
+    <rect x="368" y="290" width="74" height="34" fill="#ddd6fe"/>
+    <rect x="442" y="290" width="92" height="34" fill="#c4b5fd"/>
+    <rect x="534" y="290" width="112" height="34" fill="#ddd6fe"/>
+    <rect x="646" y="290" width="82" height="34" fill="#c4b5fd"/>
+    <rect x="728" y="290" width="108" height="34" fill="#ddd6fe"/>
+  </g>
+  <g font-size="11" fill="#4c1d95" text-anchor="middle" font-weight="600">
+    <text x="240" y="312">F062</text>
+    <text x="329" y="312">F087</text>
+    <text x="405" y="312">F106</text>
+    <text x="488" y="312">F129</text>
+    <text x="590" y="312">F158</text>
+    <text x="687" y="312">F184</text>
+    <text x="782" y="312">F213</text>
+  </g>
+  <!-- F146 -->
+  <rect x="360" y="340" width="380" height="34" rx="5" fill="#7c3aed"/>
+  <text x="550" y="362" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">F146 - very wide GBTDS workhorse filter</text>
+
+  <!-- Depth table mini -->
+  <rect x="120" y="390" width="810" height="52" rx="6" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <text x="140" y="412" font-size="12" font-weight="700" fill="#4c1d95">Roman WFI depth / saturation (workshop Galactic Plane Survey table, m_AB):</text>
+  <text x="140" y="432" font-size="11" fill="#5b21b6">F062 14.6/24.4 F087 14.2/24.1 F106 14.2/24.1 F129 14.0/24.0 F158 13.9/23.9 F184 13.2/23.3 F213 13.1/23.0</text>
+
+  <!-- Axis -->
+  <line x1="120" y1="460" x2="980" y2="460" stroke="#4b5563" stroke-width="1.5"/>
+  <g stroke="#4b5563" font-size="12" fill="#4b5563" text-anchor="middle">
+    <line x1="198" y1="455" x2="198" y2="465"/><text x="198" y="482">500</text>
+    <line x1="394" y1="455" x2="394" y2="465"/><text x="394" y="482">1000</text>
+    <line x1="589" y1="455" x2="589" y2="465"/><text x="589" y="482">1500</text>
+    <line x1="785" y1="455" x2="785" y2="465"/><text x="785" y="482">2000</text>
+    <line x1="980" y1="455" x2="980" y2="465"/><text x="980" y="482">2500</text>
+  </g>
+  <text x="550" y="508" text-anchor="middle" font-size="13" fill="#374151">wavelength (nm) - Roman's deep NIR is why it sees through bulge dust better than optical-only surveys</text>
+</svg>
