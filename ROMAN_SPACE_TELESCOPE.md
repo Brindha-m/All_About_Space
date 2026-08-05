@@ -109,10 +109,6 @@ Wide surveys find candidates; Hubble (and later Roman-resolution imaging) reveal
 
 ![Pipeline from images to populations](assets/roman_assets/from-images-to-microlensing-exoplanets.png)
 
-### Planet-mass / separation reach
-
-![Roman planet reach sensitivity](assets/roman_assets/roman-planet-reach-sensitivity.png)
-
 ---
 
 ## 4. Why the three telescopes work together
