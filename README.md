@@ -4,6 +4,7 @@
 
 > #### [From Stars to Galaxies, Every Paper in One Place](https://explorepathfinder.netlify.app/)
 
+<img width="1200" height="760" alt="image" src="https://github.com/user-attachments/assets/4e4d9dcf-4a3c-4a3a-8286-4dbf75f90853" />
 
 <img width="1200" height="1280" alt="image" src="https://github.com/user-attachments/assets/b388eab5-5473-46ce-b360-0bc46f662712" />
 
